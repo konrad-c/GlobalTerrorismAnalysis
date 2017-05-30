@@ -6,60 +6,10 @@ library(grid)
 
 setwd("~/Uni/FIT2083/Assignment3")
 
-sf <- read.csv2("Data/vic_crime_2012_2016.csv", sep=",")
-for(i in 1:ncol(sf)){
-  for(j in 1:nrow(sf)){
-    if(sf[j, i] == "null")
-      sf[j, i] <- NA
-  }
-}
-for(i in 1:ncol(sf)){
-  if(i != 27){
-    sf[i] <- as.numeric(unlist(sf[i]))
-  }
-}
-summary(sf)
-
-# ---- Fill NA values ----
-#install.packages("mice")
-library(mice)
-sf <- sf[order(sf$ref_period), ]
-imputedData <- list()
-count <- 1
-for(i in unique(sf$lga_code_2011)){
-  t_data <- sf[sf$lga_code_2011 == i, -27]
-  imputedData[[count]] <- mice(data = t_data, m = 5, method = "pmm", maxit = 50, seed = 500)
-  sf[sf$lga_code_2011 == i, -27] <- complete(imputedData[[count]], 1:ncol(sf))
-  count <- count+1
-}
-
 # ---- TODO: ----
 # Look at successes by the number of deaths per act. To do this, 
 # group by nkill, e.g. nkill < 5, < 10, < 20, < 50, < 100, etc...
 # Can be done with a for loop and breaking if statement:
-which(sf$nkill < 1)
-group_vector <- vector(mode="vector")
-greaterthan_vector <- vector(mode="numeric")
-for(j in 1:nrow(sf)){
-  row <- sf[j, ]
-  year <- as.character(row$iyear)
-  for(i in groups){
-    if(row$nkill < i){
-      if(is.null(group_vector[[year]][[as.character(i)]])){
-        group_vector[[year]][[as.character(i)]] <- 1
-      }else{
-        group_vector[[year]][[as.character(i)]] <- group_vector[[year]][[as.character(i)]] + 1
-      }
-      break
-    }else{ # Greater than max in groups
-      if(is.null(group_vector[[year]][[as.character(i)]])){
-        greaterthan_vector[[year]] <- 1
-      }else{
-        greaterthan_vector[[year]] <- group_vector[[year]] + 1
-      }
-    }
-  }
-}
 
 sf <- read.csv2("Data/gtd/globalterrorism.csv", sep=",")
 
