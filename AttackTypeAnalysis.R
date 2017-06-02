@@ -3,6 +3,16 @@ library(dplyr)
 library(reshape)
 library(gridExtra)
 library(lubridate)
+library(egg)
+setwd("~/Uni/FIT2083/GlobalTerrorismAnalysis")
+
+#extract legend
+#https://github.com/hadley/ggplot2/wiki/Share-a-legend-between-two-ggplot2-graphs
+g_legend<-function(a.gplot){
+  tmp <- ggplot_gtable(ggplot_build(a.gplot))
+  leg <- which(sapply(tmp$grobs, function(x) x$name) == "guide-box")
+  legend <- tmp$grobs[[leg]]
+  return(legend)}
 
 # read the data
 sf <- read.csv2("Data/gtd/globalterrorism.csv", sep=",")
@@ -63,12 +73,17 @@ attacktype_frame <- data.frame(
 deaths_plot <- ggplot(attacktype_frame, aes(x=Year, y=Deaths, colour=AttackType)) +
   geom_line() +
   theme_bw() +
+  labs(title="Global Terror Attacks by Attack Type") +
   scale_colour_discrete(name="Attack Type")
 attacks_plot <- ggplot(attacktype_frame, aes(x=Year, y=Attacks, colour=AttackType)) +
   geom_line() + 
   theme_bw() +
   scale_colour_discrete(name="Attack Type")
-grid.arrange(deaths_plot, attacks_plot, ncol=1)
+global_legend <- g_legend(deaths_plot)
+grid.arrange(arrangeGrob(deaths_plot + theme(legend.position="none"),
+                         attacks_plot + theme(legend.position="none"),
+                         nrow=2),
+             global_legend, ncol=2, widths = c(3,1))
 
 # ---- Looking only at Western Countries: ----
 western_countries <- c(
@@ -117,19 +132,40 @@ western_attacktype_frame <- data.frame(
 )
 deaths_plot <- ggplot(western_attacktype_frame, aes(x=Year, y=Deaths, colour=AttackType)) +
   geom_line() +
-  labs(title="United States Terror Attacks by Attack Type") +
+  labs(title="United States Terror Attack Deaths by Attack Type") +
   theme_bw() +
-  scale_colour_discrete(name="Attack Type") +
-  theme(legend.position = "none")
+  scale_colour_discrete(name="Attack Type")
 deaths_zoom_plot <- ggplot(western_attacktype_frame, aes(x=Year, y=Deaths, colour=AttackType)) +
   geom_line() +
   labs(title="Reduced Y-axis range") +
   theme_bw() +
-  scale_y_continuous(limits=c(0,200)) +
-  scale_colour_discrete(name="Attack Type")
+  scale_y_continuous(limits=c(0,175))
+deaths_zoom_further_plot <- ggplot(western_attacktype_frame, aes(x=Year, y=Deaths, colour=AttackType)) +
+  geom_line() +
+  labs(title="Further reduced Y-axis range") +
+  theme_bw() +
+  scale_y_continuous(limits=c(0,40))
+death_legend <- g_legend(deaths_plot)
+grid.arrange(arrangeGrob(deaths_plot + theme(legend.position="none"),
+                         deaths_zoom_plot + theme(legend.position="none"),
+                         deaths_zoom_further_plot + theme(legend.position = "none"),
+                         nrow=3),
+             death_legend, ncol=2, widths = c(3,1))
+
+
 attacks_plot <- ggplot(western_attacktype_frame, aes(x=Year, y=Attacks, colour=AttackType)) +
   geom_line() + 
   theme_bw() +
+  labs(title="United States Terror Attacks by Attack Type") +
+  scale_colour_discrete(name="Attack Type")
+attacks_zoom_plot <- ggplot(western_attacktype_frame, aes(x=Year, y=Attacks, colour=AttackType)) +
+  geom_line() + 
+  theme_bw() +
   scale_colour_discrete(name="Attack Type") +
-  theme(legend.position = "none")
-grid.arrange(deaths_plot, deaths_zoom_plot, attacks_plot, ncol=1)
+  scale_y_continuous(limits=c(0,50)) +
+  labs(title="Reduced Y-axis range")
+attack_legend <- g_legend(attacks_plot)
+grid.arrange(arrangeGrob(attacks_plot + theme(legend.position="none"),
+                         attacks_zoom_plot + theme(legend.position="none"),
+                         nrow=2),
+             attack_legend, ncol=2, widths = c(3,1))

@@ -73,7 +73,7 @@ for(year in years){
   year_vec[[count]] <- year
   death_set <- subset(reduced_sf, sub_years == year)
   death_vec[[count]] <- round(sum(death_set$sub_deaths))
-  attack_vec[[count]] <- length(which(sf_set$iyear == year))
+  attack_vec[[count]] <- nrow(death_set)
   count <- count+1
 }
 us_sf <- data.frame(
@@ -85,15 +85,17 @@ us_sf <- data.frame(
 us_sf <- melt(data = us_sf, id.vars = "Year")
 us_plot <- ggplot(us_sf, aes(x=Year,y=value, colour=variable)) +
   geom_line() +
+  theme_bw() +
   scale_colour_discrete(name="") +
   theme(legend.position = "left") +
   labs(x="", y="Number of", title="United States Terror & News Statistics")
 us_plot_zoomed <- ggplot(us_sf, aes(x=Year,y=value, colour=variable)) +
   geom_line() +
+  theme_bw() +
   scale_y_continuous(limits=c(0,180))+
   scale_colour_discrete(name="") +
   theme(legend.position = "left") +
-  labs(x="Year", y="Number of", title="Zoomed in Death/Attack Numbers")
+  labs(x="Year", y="Number of", title="Reduced Y-axis range")
 ggarrange(us_plot, us_plot_zoomed, proparticle, ncol=1)
   #geom_line(data=us_sf, aes(x=Year, y=Deaths)) +
   #geom_line(data=us_sf, aes(x=Year, y=Attacks)) +
