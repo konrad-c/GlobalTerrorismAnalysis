@@ -169,3 +169,51 @@ grid.arrange(arrangeGrob(attacks_plot + theme(legend.position="none"),
                          attacks_zoom_plot + theme(legend.position="none"),
                          nrow=2),
              attack_legend, ncol=2, widths = c(3,1))
+
+# ---- Looking only at Top 6 ----
+top6countries <- as.character(plot_data$countries)
+countries <- as.character(unique(reduced_sf$sub_countries))
+years <- unique(reduced_sf$sub_years)
+count <- 1
+country_vec <- vector(mode="character")
+year_vec <- vector(mode="numeric")
+death_vec <- vector(mode="numeric")
+attack_vec <- vector(mode="numeric")
+attacktype_vec <- vector(mode="character")
+r_sf <- reduced_sf[grep(paste(top6countries, collapse='|'), reduced_sf$sub_countries, ignore.case=TRUE),]
+for(attacktype in attacktypes){
+  reduced_sf_set <- subset(r_sf, sub_attacktype == attacktype)
+  for(year in years){
+    #country_vec[[count]] <- country
+    year_vec[[count]] <- year
+    death_set <- subset(reduced_sf_set, sub_years == year)
+    death_vec[[count]] <- round(sum(death_set$sub_deaths))
+    attack_vec[[count]] <- nrow(death_set)
+    attacktype_vec[[count]] <- attacktype
+    count <- count+1
+  }
+}
+top6_attacktype_frame <- data.frame(
+  Year=year_vec,
+  AttackType=attacktype_vec,
+  Deaths=death_vec,
+  Attacks=attack_vec
+)
+deaths_plot <- ggplot(top6_attacktype_frame, aes(x=Year, y=Deaths, colour=AttackType)) +
+  geom_line() +
+  theme_bw() +
+  labs(title=
+"Terror Attacks by Attack Type in Iraq, Afghanistan, Pakistan, Nigeria,
+India & Sri Lanka (Top 6 countries by deaths from terrorist attacks)") +
+  scale_colour_discrete(name="Attack Type")
+attacks_plot <- ggplot(top6_attacktype_frame, aes(x=Year, y=Attacks, colour=AttackType)) +
+  geom_line() + 
+  theme_bw() +
+  scale_colour_discrete(name="Attack Type")
+top6_legend <- g_legend(deaths_plot)
+grid.arrange(arrangeGrob(deaths_plot + theme(legend.position="none"),
+                         attacks_plot + theme(legend.position="none"),
+                         nrow=2),
+             top6_legend, ncol=2, widths = c(3,1))
+
+
