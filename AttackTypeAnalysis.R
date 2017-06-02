@@ -94,7 +94,9 @@ year_vec <- vector(mode="numeric")
 death_vec <- vector(mode="numeric")
 attack_vec <- vector(mode="numeric")
 attacktype_vec <- vector(mode="character")
-r_sf <- reduced_sf[grep(paste(western_countries, collapse='|'), reduced_sf$sub_countries, ignore.case=TRUE),]
+#r_sf <- reduced_sf[grep(paste(western_countries, collapse='|'), reduced_sf$sub_countries, ignore.case=TRUE),]
+# ---- United States only ----
+r_sf <- reduced_sf[reduced_sf$sub_countries == "United States", ]
 for(attacktype in attacktypes){
   reduced_sf_set <- subset(r_sf, sub_attacktype == attacktype)
   for(year in years){
@@ -115,12 +117,19 @@ western_attacktype_frame <- data.frame(
 )
 deaths_plot <- ggplot(western_attacktype_frame, aes(x=Year, y=Deaths, colour=AttackType)) +
   geom_line() +
-  labs(title="Western Terror Attacks by Attack Type") +
+  labs(title="United States Terror Attacks by Attack Type") +
   theme_bw() +
-  scale_y_continuous(limits=c(0,500)) +
+  scale_colour_discrete(name="Attack Type") +
+  theme(legend.position = "none")
+deaths_zoom_plot <- ggplot(western_attacktype_frame, aes(x=Year, y=Deaths, colour=AttackType)) +
+  geom_line() +
+  labs(title="Reduced Y-axis range") +
+  theme_bw() +
+  scale_y_continuous(limits=c(0,200)) +
   scale_colour_discrete(name="Attack Type")
 attacks_plot <- ggplot(western_attacktype_frame, aes(x=Year, y=Attacks, colour=AttackType)) +
   geom_line() + 
   theme_bw() +
-  scale_colour_discrete(name="Attack Type")
-grid.arrange(deaths_plot, attacks_plot, ncol=1)
+  scale_colour_discrete(name="Attack Type") +
+  theme(legend.position = "none")
+grid.arrange(deaths_plot, deaths_zoom_plot, attacks_plot, ncol=1)
