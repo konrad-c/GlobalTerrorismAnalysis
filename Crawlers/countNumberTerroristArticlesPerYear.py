@@ -15,7 +15,7 @@ def main(start,stop):
 
     # url for terrism related articles
     URL = ['http://query.nytimes.com/search/sitesearch/#/terrorism/from','02to','01/allresults/1/allauthors/oldest/']
-    saveName = 'TerrorArticleCount.csv'
+    saveName = 'test.csv'
 
     # make sure you have the lastest cromedriver in the same file direcroty as this python program
     driver = webdriver.Chrome()
