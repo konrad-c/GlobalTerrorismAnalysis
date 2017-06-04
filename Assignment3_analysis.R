@@ -57,18 +57,49 @@ grid.draw(gt)
 
 # ---- Successes vs Attempts
 count <- 1
-for(year in unique(sf$iyear)){
-  successes[count] <- sum(sf[sf$iyear == year, ]$success)
-  attempts[count] <- nrow(sf[sf$iyear == year, ])
-  count <- count + 1
-}
-success_time <- data.frame(unique(sf$iyear), successes, attempts, deaths)
-colnames(success_time) <- c("Year", "Successes", "Attempts", "Deaths")
-success_time$Proportion <- success_time$Successes/success_time$Attempts
+successes <- vector(mode="numeric")
+attempts <- vector(mode="numeric")
+country_vec <- vector(mode="character")
+year_vec <- vector(mode="numeric")
+# Top6
+sf_sub <- sf[grep(paste(plot_data$countries, collapse='|'), sf$country_txt, ignore.case=TRUE),]
+# Western Countries
+sf_sub <- sf[grep(paste(western_countries[1:6], collapse='|'), sf$country_txt, ignore.case=TRUE),]
+# United states
+sf_sub <- sf[sf$country_txt == "United States", ]
 
-ggplot(success_time, aes(x=Year, y=Proportion)) + 
-  labs(x="Year", y="Successes/Attempts") +
-  geom_point() + 
-  geom_line() + 
-  theme_bw()+
-  scale_y_continuous(limits=c(0,1))
+countries <- unique(as.character(sf_sub$country_txt))
+for(country in countries){
+  sf_subset <- sf_sub[sf_sub$country_txt == country, ]
+  for(year in unique(sf_subset$iyear)){
+    country_vec[[count]] <- country
+    year_vec[[count]] <- year
+    successes[count] <- sum(sf_subset[sf_subset$iyear == year, ]$success)
+    attempts[count] <- nrow(sf_subset[sf_subset$iyear == year, ])
+    count <- count + 1
+  }
+}
+
+success_time <- data.frame(
+  Country=country_vec, 
+  Year=year_vec,
+  Successes=successes,
+  Attempts=attempts,
+  Proportion=successes/attempts
+)
+#success_time$Proportion[which(success_time$Proportion == "NaN")
+plots <- list()
+legend_cols <- c("Successes"="#E41A1C", "Attempts"="#377EB8", "Proportion"="black")
+for(country in unique(success_time$Country)){
+  success_time_sub <- success_time[success_time$Country == country, ]
+  plots[[country]] <- ggplot() + 
+    geom_line(data=success_time_sub, aes(x=Year, y=Proportion, colour="Proportion")) +
+    #geom_line(data=success_time_sub, aes(x=Year, y=Attempts, colour="Attempts")) +
+    labs(x="Year", y="Successes/Attempts", title=country) +
+    theme_bw() +
+    scale_y_continuous(limits=c(0,1)) +
+    scale_colour_manual(name="",values=legend_cols)
+}
+grid.arrange(grobs = plots, ncol=ceiling(sqrt(length(plots))))
+
+  #scale_y_continuous(limits=c(0,1))
