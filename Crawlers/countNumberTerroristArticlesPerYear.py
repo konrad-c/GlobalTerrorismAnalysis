@@ -15,7 +15,7 @@ def main(start,stop):
 
     # url for terrism related articles
     URL = ['http://query.nytimes.com/search/sitesearch/#/terrorism/from','02to','01/allresults/1/allauthors/oldest/']
-    saveName = 'test.csv'
+    saveName = 'TerrorismArticleCountAfter2015.csv'
 
     # make sure you have the lastest cromedriver in the same file direcroty as this python program
     driver = webdriver.Chrome()
@@ -88,4 +88,4 @@ def main(start,stop):
 
 
 if __name__ == "__main__":
-    main(1969,2015)
+    main(2015,2018)

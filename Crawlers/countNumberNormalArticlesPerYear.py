@@ -11,7 +11,7 @@ def main(start,stop):
 
     # url for all articles
     URL = ['http://query.nytimes.com/search/sitesearch/#/*/from','02to','01/']
-    saveName = 'articleCount.csv'
+    saveName = 'articleCountAfter2015.csv'
 
     # url for terrism related articles
     #URL = ['http://query.nytimes.com/search/sitesearch/#/terrorism/from','02to','01/allresults/1/allauthors/oldest/']
@@ -88,4 +88,4 @@ def main(start,stop):
 
 
 if __name__ == "__main__":
-    main(1969,2015)
+    main(2015,2018)
