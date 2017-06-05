@@ -2,6 +2,7 @@ library(ggplot2)
 library(dplyr)
 library(reshape)
 library(gridExtra)
+library(MASS)
 library(lubridate)
 install.packages(devtools)
 devtools::install_github("baptiste/egg")
@@ -23,14 +24,16 @@ lm_eqn <- function(df){
 sf <- read.csv2("Data/gtd/globalterrorism.csv", sep=",")
 
 # read the data
-articles_sf <- read.csv2("Crawlers/articleCount.csv", sep=",")
+#articles_sf <- read.csv2("Crawlers/articleCount.csv", sep=",")
+articles_sf <- read.csv2("Crawlers/articleCountAfter2015.csv", sep=",")
 articles_sf$ArticleType <- "Total"
 articles_sf$NumArticles[articles_sf$NumArticles == "Unknown"] <- NA
 articles_sf$NumArticles <- as.numeric(as.character(unlist(articles_sf$NumArticles)))
 articles_sf$month <- as.character(articles_sf$month)
 articles_sf$month[as.numeric(articles_sf$month) < 10] <- paste("0", articles_sf$month[as.numeric(articles_sf$month) < 10], sep="")
 
-terror_articles_sf <- read.csv2("Crawlers/TerrorArticleCount.csv", sep=",")
+#terror_articles_sf <- read.csv2("Crawlers/TerrorismArticleCount.csv", sep=",")
+terror_articles_sf <- read.csv2("Crawlers/TerrorismArticleCountAfter2015.csv", sep=",")
 terror_articles_sf$ArticleType <- "Terror Article"
 terror_articles_sf$NumArticles[terror_articles_sf$NumArticles == "Unknown"] <- NA
 terror_articles_sf$NumArticles <- as.numeric(as.character(unlist(terror_articles_sf$NumArticles)))
@@ -69,7 +72,7 @@ proparticle <- ggplot(sf_prop, aes(x=Date, y=Proportion)) +
   #geom_vline(xintercept = as.numeric(as.Date("2001/09/11 00:00:00")), colour="red")
 ggarrange(numarticle, proparticle, ncol=1)
 
-# Articles by Year:
+# ---- Articles by Year: ----
 count <- 1
 year_vec <- vector(mode="numeric")
 article_total <- vector(mode="numeric")
@@ -97,16 +100,16 @@ numarticle_year <- ggplot(sf_news_year, aes(x=Year, y=value, colour=ArticleType)
   theme_bw() +
   scale_color_discrete(name="Article Type") +
   labs(x="Year", y="# of Articles", title="New York Times Articles Mentioning Terrorism by Year")
-proparticle_year <- ggplot(sf_prop_year, aes(x=Year, y=Proportion)) +
+proparticle_year_rlm <- ggplot(sf_prop_year, aes(x=Year, y=Proportion)) +
   #geom_point() +
   geom_line() + 
   theme_bw() +
   labs(x="Year", y="Ratio of Terrorism Articles to Total Articles") +
-  geom_smooth(method="lm", alpha=0.0) +
+  geom_smooth(method="rlm", alpha=0.0) +
   geom_text(x = 1975, y = 0.050, label = lm_eqn(sf_prop_year), parse = TRUE)
-ggarrange(numarticle_year, proparticle_year, ncol=1)
+ggarrange(numarticle_year, proparticle_year_rlm, ncol=1)
 
-# ---- Terror Articles vs Attacks & Deaths
+ # ---- Terror Articles vs Attacks & Deaths
 # Clean bad data
 sf <- sf[sf$imonth != "0", ]
 
