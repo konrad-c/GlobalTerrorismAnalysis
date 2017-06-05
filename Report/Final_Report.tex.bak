@@ -7,7 +7,7 @@
 \usepackage{graphicx}
 \usepackage{scrextend}
 \usepackage{wrapfig}
-\author{Julian Kardis}
+\author{Konrad Cybulski, Julian Kardis, Matteo Batelic}
 \title{Understanding Trends in Global Terrorism}
 \begin{document}
 \begin{titlepage}
@@ -68,7 +68,12 @@ The database used in this investigation comes from the Global Terrorism Database
 \subsection{Analysis}
 The methods used to analyse the GTD involved for the most part an analysis of a number of time series'. In order to understand trends of not only single countries, but groups of countries as well as terrorism on a global scale, the groups and countries used were determined in the following way. The country clusters investigated were made up of three groups, typically Western and first world countries (United States, Canada, Australia, France, Finland, Russia, etc.), the six countries with the overall highest number of deaths due to terrorist activity between 1970 and 2015 (which is determined by data from the GTD), and a more in depth look solely at trends in the United States.
 \\\\
-All three groups are investigated with regard 
+All three groups are investigated with regard to deaths due to terrorist activity, number of attacks, type of attack and rate of success for a given attack. However the United States is not only subject to investigation into these variables, but using data from the \textit{New York Times}, investigated with regard to possible relationships between the media's coverage of terrorism and rates of attacks and methods of attacks.
+
+
+\section{Results}
+The results produced as outlined by the \textit{Methods} section are below grouped by the variable which 
+
 
 \section{Discussion} 
 
