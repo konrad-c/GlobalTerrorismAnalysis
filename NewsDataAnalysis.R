@@ -8,14 +8,13 @@ install.packages(devtools)
 devtools::install_github("baptiste/egg")
 library(egg)
 
-lm_eqn <- function(df){
+rlm_eqn <- function(df){
   x <- df[, 1]
   y <- df[, 2]
-  m <- lm(y ~ x, df);
-  eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2, 
+  m <- rlm(y ~ x, df);
+  eq <- substitute(italic(y) == a + b %.% italic(x), 
                    list(a = format(coef(m)[1], digits = 2), 
-                        b = format(coef(m)[2], digits = 2), 
-                        r2 = format(summary(m)$r.squared, digits = 3)))
+                        b = format(coef(m)[2], digits = 2)))
   as.character(as.expression(eq));                 
 }
 
@@ -24,20 +23,18 @@ lm_eqn <- function(df){
 sf <- read.csv2("Data/gtd/globalterrorism.csv", sep=",")
 
 # read the data
-#articles_sf <- read.csv2("Crawlers/articleCount.csv", sep=",")
-articles_sf <- read.csv2("Crawlers/articleCountAfter2015.csv", sep=",")
-articles_sf$ArticleType <- "Total"
-articles_sf$NumArticles[articles_sf$NumArticles == "Unknown"] <- NA
-articles_sf$NumArticles <- as.numeric(as.character(unlist(articles_sf$NumArticles)))
+articles_sf <- read.csv2("Crawlers/articleCount.csv", sep=",")
+articles_sf$Year <- as.numeric(as.character(articles_sf$Year))
 articles_sf$month <- as.character(articles_sf$month)
+articles_sf$NumArticles <- as.numeric(as.character(articles_sf$NumArticles))
+articles_sf$ArticleType <- "Total"
 articles_sf$month[as.numeric(articles_sf$month) < 10] <- paste("0", articles_sf$month[as.numeric(articles_sf$month) < 10], sep="")
 
-#terror_articles_sf <- read.csv2("Crawlers/TerrorismArticleCount.csv", sep=",")
-terror_articles_sf <- read.csv2("Crawlers/TerrorismArticleCountAfter2015.csv", sep=",")
-terror_articles_sf$ArticleType <- "Terror Article"
-terror_articles_sf$NumArticles[terror_articles_sf$NumArticles == "Unknown"] <- NA
-terror_articles_sf$NumArticles <- as.numeric(as.character(unlist(terror_articles_sf$NumArticles)))
+terror_articles_sf <- read.csv2("Crawlers/TerrorismArticleCount.csv", sep=",")
+terror_articles_sf$Year <- as.numeric(as.character(terror_articles_sf$Year))
 terror_articles_sf$month <- as.character(terror_articles_sf$month)
+terror_articles_sf$NumArticles <- as.numeric(as.character(terror_articles_sf$NumArticles))
+terror_articles_sf$ArticleType <- "Terror Article"
 terror_articles_sf$month[as.numeric(terror_articles_sf$month) < 10] <- paste("0", terror_articles_sf$month[as.numeric(terror_articles_sf$month) < 10], sep="")
 
 # Create Date columns:
@@ -62,15 +59,15 @@ sf_prop <- data.frame(
   Date=articles_sf$Date, 
   Proportion=terror_articles_sf$NumArticles/articles_sf$NumArticles
 )
-proparticle <- ggplot(sf_prop, aes(x=Date, y=Proportion)) +
+proparticle_rlm <- ggplot(sf_prop, aes(x=Date, y=Proportion)) +
   #geom_point() +
   geom_line() + 
   theme_bw() +
   labs(x="Year", y="Proportion of Terrorism Articles to Total Articles") +
-  geom_smooth(method="lm", alpha=0.0) +
-  geom_text(x = 1970, y = 0.20, label = lm_eqn(sf_prop), parse = TRUE) #+
+  geom_smooth(method="rlm", alpha=0.0) +
+  geom_text(x = 1970, y = 0.20, label = rlm_eqn(sf_prop), parse = TRUE) #+
   #geom_vline(xintercept = as.numeric(as.Date("2001/09/11 00:00:00")), colour="red")
-ggarrange(numarticle, proparticle, ncol=1)
+ggarrange(numarticle, proparticle_rlm, ncol=1)
 
 # ---- Articles by Year: ----
 count <- 1
@@ -106,7 +103,7 @@ proparticle_year_rlm <- ggplot(sf_prop_year, aes(x=Year, y=Proportion)) +
   theme_bw() +
   labs(x="Year", y="Ratio of Terrorism Articles to Total Articles") +
   geom_smooth(method="rlm", alpha=0.0) +
-  geom_text(x = 1975, y = 0.050, label = lm_eqn(sf_prop_year), parse = TRUE)
+  geom_text(x = 1975, y = 0.050, label = rlm_eqn(sf_prop_year), parse = TRUE)
 ggarrange(numarticle_year, proparticle_year_rlm, ncol=1)
 
  # ---- Terror Articles vs Attacks & Deaths
@@ -140,7 +137,7 @@ count <- 1
 year_vec <- vector(mode="numeric")
 death_vec <- vector(mode="numeric")
 attack_vec <- vector(mode="numeric")
-for(year in years){
+for(year in unique(sf$iyear)){
   year_vec[[count]] <- year
   death_set <- subset(reduced_sf, sub_years == year)
   death_vec[[count]] <- round(sum(death_set$sub_deaths))
@@ -167,7 +164,7 @@ us_plot_zoomed <- ggplot(us_sf, aes(x=Year,y=value, colour=variable)) +
   scale_colour_discrete(name="") +
   theme(legend.position = "left") +
   labs(x="Year", y="Number of", title="Reduced Y-axis range")
-ggarrange(us_plot, us_plot_zoomed, proparticle, ncol=1)
+ggarrange(us_plot, us_plot_zoomed, proparticle_year_rlm, ncol=1)
   #geom_line(data=us_sf, aes(x=Year, y=Deaths)) +
   #geom_line(data=us_sf, aes(x=Year, y=Attacks)) +
   #geom_line(data=sf_prop, aes(x=Year, y=Proportion))
