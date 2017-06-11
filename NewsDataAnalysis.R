@@ -74,7 +74,7 @@ count <- 1
 year_vec <- vector(mode="numeric")
 article_total <- vector(mode="numeric")
 article_terror <- vector(mode="numeric")
-for(year in unique(sf_news$Year)){
+for(year in unique(sf$iyear)){
   year_vec[[count]] <- year
   sub_sf_news <- subset(sf_news, Year == year)
   article_total[[count]] <- round(sum(sub_sf_news[sub_sf_news$ArticleType == "Total",]$NumArticles))
@@ -103,7 +103,9 @@ proparticle_year_rlm <- ggplot(sf_prop_year, aes(x=Year, y=Proportion)) +
   theme_bw() +
   labs(x="Year", y="Ratio of Terrorism Articles to Total Articles") +
   geom_smooth(method="rlm", alpha=0.0) +
-  geom_text(x = 1975, y = 0.050, label = rlm_eqn(sf_prop_year), parse = TRUE)
+  geom_smooth(method="rlm", data=sfsubset, aes(x=Year, y=Proportion)) +
+  geom_text(x = 1975, y = 0.050, label = rlm_eqn(sf_prop_year), parse = TRUE) +
+  geom_text(x = 1975, y = 0.030, label = rlm_eqn(sfsubset), parse = TRUE)
 ggarrange(numarticle_year, proparticle_year_rlm, ncol=1)
 
  # ---- Terror Articles vs Attacks & Deaths
@@ -150,21 +152,30 @@ us_sf <- data.frame(
   Attacks=attack_vec
   #TerrorArticles=sf_news[sf_news$ArticleType=="Terror Article", ]$NumArticles[1:45]
 )
-us_sf <- melt(data = us_sf, id.vars = "Year")
-us_plot <- ggplot(us_sf, aes(x=Year,y=value, colour=variable)) +
+us_sf_melted <- melt(data = us_sf, id.vars = "Year")
+us_plot <- ggplot(us_sf_melted, aes(x=Year,y=value, colour=variable)) +
   geom_line() +
   theme_bw() +
   scale_colour_discrete(name="") +
   theme(legend.position = "left") +
   labs(x="", y="Number of", title="United States Terror & News Statistics")
-us_plot_zoomed <- ggplot(us_sf, aes(x=Year,y=value, colour=variable)) +
+us_plot_zoomed <- ggplot(us_sf_melted, aes(x=Year,y=value, colour=variable)) +
   geom_line() +
   theme_bw() +
   scale_y_continuous(limits=c(0,180))+
   scale_colour_discrete(name="") +
+  geom_smooth(method='lm') +
   theme(legend.position = "left") +
   labs(x="Year", y="Number of", title="Reduced Y-axis range")
 ggarrange(us_plot, us_plot_zoomed, proparticle_year_rlm, ncol=1)
   #geom_line(data=us_sf, aes(x=Year, y=Deaths)) +
   #geom_line(data=us_sf, aes(x=Year, y=Attacks)) +
   #geom_line(data=sf_prop, aes(x=Year, y=Proportion))
+
+r2 <- function(x){  
+        SSe <- sum((x$resid)^2);  
+        observed <- x$resid+x$fitted;  
+        SSt <- sum((observed-mean(observed))^2);  
+        value <- 1-SSe/SSt;  
+        return(value);  
+        } 

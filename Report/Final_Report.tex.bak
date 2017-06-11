@@ -73,7 +73,7 @@ The methods used to analyse the GTD involved for the most part an analysis of a 
 All three groups are investigated with regard to deaths due to terrorist activity, number of attacks, type of attack and rate of success for a given attack. However the United States is not only subject to investigation into these variables, but using data from the \textit{New York Times}, investigated with regard to possible relationships between the media's coverage of terrorism and rates of attacks and methods of attacks.
 
 
-	\section{Results}
+\section{Results}
 The results produced as outlined by the \textit{Methods} section are below grouped by the variable investigated. These sections include investigation into:\\
 \begin{itemize}
 \item The relationship between \textit{New York Times} terrorism coverage and United States related terrorism activity.
@@ -93,7 +93,8 @@ The results produced as outlined by the \textit{Methods} section are below group
 	\section{Discussion} 
 
 \subsection{Terrorism coverage in United States news data}
-The aim in this section is to Exploor the relationship between Terrorist attacks, deaths and media coverage of attacks in the United States. In \textbf{section}, Fugure \textbf{newyourk times articles mentioning terrorism by month}, the proportion of terrism articles to total articles each month has a a positive linear regresion, showing that thorugh the 45 from 1970 to 2015, more articles abour terrorism is being written each month. From 1970 to september 2001 this linear regression is followed closly without much deviation but in in september, 2001 there is a large spike, where the ratio peaked \textit{VALUE}, this was the month of \textit{911}, where there was a fatality count of \textit{2997} perople. Soon after this month the ratio slowly decreated intill it settled onto the linear regeresion line, following it again with little deviation. 
+The aim in this section is to Explore the relationship between Terrorist attacks, deaths and media coverage of attacks in the United States. In \textbf{section}, Figure \textbf{newyourk times articles mentioning terrorism by month}, the proportion of terrorism articles to total articles each month has a a positive linear regression, showing that through the 45 from 1970 to 2015, more articles each month is being written about terrorism. From 1970 to September 2001 this linear regression is followed closely without much deviation but in in September, 2001 there is a large spike, where the ratio peaked \textit{VALUE}, this was the month of \textit{911}, where there was a fatality count of \textit{2997} people. Soon after this month the ratio slowly decreased until it settled onto the linear regression line, following it again with little deviation. 
+\\\\
 
 \subsection{Terrorism coverage in the United States news data}
 
@@ -103,20 +104,29 @@ The aim in this section is to Exploor the relationship between Terrorist attacks
 \subsection{Terrorism trends over time}
 
 \subsection{Rates of success in terrorist attacks}
-As shown in the results section *.*, the rates of success of terrorist attacks do not vary greatly between regions.
+As shown in the results section *.*, the rates of success of terrorist attacks do not vary greatly between regions and clusters of countries. Despite a greatly varying number of attacks and deaths, especially between the two main country clusters investigated (western countries and the top six countries with regard to total deaths as a result of terrorism), countries in these two clusters have very similar rates of success over time. 
+\\\\
+For a sample of 6 western countries: United States, Canada, Australia, France, Finland and Russia; the respective mean success rates over the period of time 1970-2015 are 0.807, 0.725, 0.869, 0.904, 0.984 and 0.828. However these means misrepresent the number of successes and failures comparatively. Finland, with the highest success rate of the six western countries shown, however over the given time period, has had a total of 15 terrorist attacks, 14 of which were successful. 
 
+Five of the six countries have had years during this period with no terrorist attacks, Canada: 20, Australia: 17, France: 2, Finland: 38, Russia: 22. The United States however, with a comparatively lower mean success rate, has had no years without a terrorist attack. The rate of success in the United States, despite counter-terrorism related government funding having doubled between 2001 and 2013 (Desilver, 2013).
+\\\\
+Other westernised countries specified above however, due to the low number terrorist attacks year to year, with.
+The highest number of attacks for each country in any given year: Australia, 9; Finland, 9; Canada, 5; United States, 468; France, 270; Russia, 251. The success rate for Australia, Finland and Canada becomes increasingly random, or in the case of Finland, increasingly high. However as seen in the United States, overall stable
 \section{Conclusion} 
 
 
 \pagebreak
 \begin{thebibliography}{9}
 
-\bibitem{2}
+\bibitem{1}
 National Consortium for the Study of Terrorism and Responses to Terrorism (START). 
 (2016). \textit{Global Terrorism Database}[Data file].
 Retrieved from https://www.start.umd.edu/gtd
 
-\end{thebibliography}
+\bibitem{2}
+Desilver, D. (2013). \textit{U.S. spends over \$16 billion annually on counter-terrorism}.
+Retrieved from http://www.pewresearch.org/fact-tank/2013/09/11/u-s-spends-over-16-billion-annually-on-counter-terrorism/
 
+\end{thebibliography}
 
 \end{document}

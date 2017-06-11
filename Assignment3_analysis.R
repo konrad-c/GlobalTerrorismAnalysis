@@ -2,6 +2,7 @@ library(ggplot2)
 library(dplyr)
 library(reshape)
 library(grid)
+library(gridExtra)
 
 setwd("~/Uni/FIT2083/GlobalTerrorismAnalysis")
 
@@ -71,8 +72,8 @@ sf_sub <- sf[sf$country_txt == "United States", ]
 countries <- unique(as.character(sf_sub$country_txt))
 for(country in countries){
   sf_subset <- sf_sub[sf_sub$country_txt == country, ]
-  for(year in unique(sf_subset$iyear)){
-    country_vec[[count]] <- country
+  for(year in unique(sf$iyear)){
+    #country_vec[[count]] <- country
     year_vec[[count]] <- year
     successes[count] <- sum(sf_subset[sf_subset$iyear == year, ]$success)
     attempts[count] <- nrow(sf_subset[sf_subset$iyear == year, ])
@@ -81,23 +82,30 @@ for(country in countries){
 }
 
 success_time <- data.frame(
-  Country=country_vec, 
+  #Country=country_vec, 
   Year=year_vec,
   Successes=successes,
   Attempts=attempts,
   Proportion=successes/attempts
 )
-#success_time$Proportion[which(success_time$Proportion == "NaN")
+success_time$Proportion[which(success_time$Proportion == "NaN")] <- 0
+# Summary
+for(country in unique(success_time$Country)){
+  print(country)
+  print(summary(success_time[success_time$Country==country, ]$Attempts))
+}
+
 plots <- list()
 legend_cols <- c("Successes"="#E41A1C", "Attempts"="#377EB8", "Proportion"="black")
 for(country in unique(success_time$Country)){
   success_time_sub <- success_time[success_time$Country == country, ]
   plots[[country]] <- ggplot() + 
     geom_line(data=success_time_sub, aes(x=Year, y=Proportion, colour="Proportion")) +
+    geom_point(data=success_time_sub, aes(x=Year, y=Proportion, colour="Proportion")) +
     #geom_line(data=success_time_sub, aes(x=Year, y=Attempts, colour="Attempts")) +
     labs(x="Year", y="Successes/Attempts", title=country) +
     theme_bw() +
-    scale_y_continuous(limits=c(0,1)) +
+    #scale_y_continuous(limits=c(0,1)) +
     scale_colour_manual(name="",values=legend_cols)
 }
 grid.arrange(grobs = plots, ncol=ceiling(sqrt(length(plots))))
