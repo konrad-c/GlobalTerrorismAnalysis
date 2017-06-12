@@ -21,4 +21,5 @@
 \contentsline {subsection}{\numberline {6.2}Methods of Attack}{8}
 \contentsline {subsection}{\numberline {6.3}Terrorism trends over time}{9}
 \contentsline {subsection}{\numberline {6.4}Rates of success in terrorist attacks}{9}
-\contentsline {section}{\numberline {7}Conclusion}{9}
+\contentsline {subsubsection}{\numberline {6.4.1}Westernized Countries}{9}
+\contentsline {section}{\numberline {7}Conclusion}{10}

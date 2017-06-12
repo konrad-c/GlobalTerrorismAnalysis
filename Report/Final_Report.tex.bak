@@ -54,13 +54,85 @@
 \tableofcontents
 \pagebreak
 
-
 \section{Abstract} 
 
 \section{Introduction} 
-Terrorism is vast and complicated, being caused and provoked by numerous reasons.  This exploratory study aims to understand broad trends in global and country specific reigens. Utilising the ‘Global Terrorism Database’ from ‘kaggle’ consisting of ‘More than 150,000 terrorist attacks worldwide’ from 1970 to 2015 we aim to understand trends in countries with high rates of terrorism, methods of attacks, understanding rates of success in terror attacks and by utilising a count of both total and terrorism specific  articles produced by The New York Times newspaper we aim to answer if the recent influx of news articles due to the new accessibility of news has an effect on terrorism trends in America.
+Terrorism is vast and complicated, being caused and provoked by numerous reasons.  This exploratory study aims to understand broad trends in global and country specific reigens. Utilising the ‘Global Terrorism Database’ from (START, 2016) consisting of ‘More than 150,000 terrorist attacks worldwide’ from 1970 to 2015 we aim to understand trends in countries with high rates of terrorism, methods of attacks, understanding rates of success in terror attacks and by utilising a count of both total and terrorism specific  articles produced by The New York Times newspaper we aim to answer if the recent influx of news articles due to the new accessibility of news has an effect on terrorism trends in America.
 
-\section{Background} 
+\pagebreak
+
+
+	\section{Background}
+		\subsection{The issues in terrorism research}
+The scientific study of terrorism is plagued by three common issues throughout the literature.
+			\subsubsection{Issue One: No universal agreement on a single definition of terrorism}
+A common issue in the scientific study of terrorism is that there is no universal agreement on a single definition of terrorism (Charters, 1989). This lack of a common definition makes conveying sophisticated and nuanced ideas on terrorism difficult at best, as the definition of terrorism being used often depends upon the perspective the user is taking (Hill, 2016).  A clear example of this can be seen within the different agencies of the US government, many of which use different definitions of terrorism dependent of the departments priorities. \\\\
+
+The US Department of State defines terrorism as “…means premeditated, politically motivated violence perpetrated against noncombatant targets by subnational groups or clandestine agents” (22 U.S Code) which focuses on politically motivated acts behind terrorism.  \\\\
+
+The US Federal Emergency Management Agency defines terrorism as “…the use of force or violence against persons or property in violation of the criminal laws of the United States for purposes of intimidation, coercion, or ransom.” (FEMA, 2013), which is a focus on the criminal acts of terrorism.\\\\ 
+
+The Federal Bureau of Investigations defines terrorism as “The unlawful use of force or violence against persons or property to intimidate or coerce a government, the civilian population, or any segment thereof, in furtherance of political or social objectives.” (FBI, 2002) which encompasses political, criminal and social aspects of terrorism. \\\\
+
+There are also different definitions used by the U.S Department of Defense (DoD, 2010), the U.S Army Manual (U.S Army, 2001), and the U.S Congress (18 U.S Code), all of which focus on the different priorities of each department/branch of government. \\\\
+
+For purpose of this study, the definition used is the same as the definition used by START. START defines terrorism as “Acts by non-state actors involving the threatened or actual use of illegal force or violence to obtain a political, economic, religious, or social goal through fear, coercion, or intimidation “ (START, 2016). 
+
+
+			\subsubsection{Issue Two: A lack of objective data on terrorism}
+
+The second common issue is a lack of objective data on terrorism (Silke, 2008). This is driven, at least in part, by the lack of a common definition of terrorism. But there are also other contributing factors, due to terrorism being a furtive activity by nature. \\\\
+
+Terrorists are unlikely to report their activities, and in the rare cases they do, are usually doing so to drive factually dubious propaganda (Merari, 2007).  This is compounded by the fact many targets of terrorist attacks are governments, businesses or organizations. Frequently these targets are not interested in providing objective data about the attack due to not wanting to be perceived as vulnerable, not wanting to validate terrorist grievances or wanting to drive their own agenda (Lafree \& Dugan, 2007).\\\\
+
+
+
+			\subsubsection{Issue Three: A lack of research to build upon}
+Research on terrorism is not as widespread in relation to similar fields, such as criminology (LaFree \& Dugan, How does studying terrorism compare to studying crime?, 2004). The research has largely depended on a small pool of active researchers, and suffers from a distinct lack of collaborative research (Silke, 2008). Although since 9/11, papers in the field of terrorism have tripled, terrorism research is still lagging behind other similar fields of research (Sheehan, 2012).
+
+		\subsection{Addressing the three common issues}
+START has attempted to deal with these common issues by introducing several assumptions into their database.\\\\
+
+For tackling the issue of lack of a common definition for terrorism, START have used modular criteria for their data, where an attack must meet several listed criteria (START, 2016). This rule is an attempt to address the lack of a universal definition for terrorism by allowing the components of several commonly used definitions to be used in conjunction.  START has not to included state sponsored terrorism and advises that due to a lack of a universal definition of insurgency (must like terrorism), that the database cannot be used for accurately modelling data based on insurgency. (START GTD, 2017).\\\\
+
+For tackling the issue of objective data, START have decide to rely only on media reported incidents that meet their criteria rules for the definition of terrorism. START includes failed attacks but have decided to leave out failed or foiled plots, due to their underreporting (START, 2016). \\\\
+
+In addressing the issue of lack of researchers and collaborative research in the field of terrorism, START have made their data set an open source endeavor. The problem introduced by this is that the database accuracy is dependent on the accuracy of media reports, and may be biased in favor of the most newsworthy forms of terrorism (START GTD, 2017).
+
+\subsection{Methodological Issues with the GTD}
+
+The data collection methods of the GTD have shifted over the years causing some inconsistencies within the data (START, 2016). This in part is explained by the fact that the groups collecting the data have changed, as well as an extended period of inactivity in the collection of data (LaFree, Dugan, \& Scott, 2006).
+\\\\
+
+\textbf{1993}\\\\
+The entire year of 1993 is missing due to a clerical error (LaFree, Dugan, \& Scott, 2006).\\\\
+
+\textbf{1997 - 2008}\\\\
+The GTD data collection was discontinued between 1997 to 2008. It is for this reason there is a decline in data between 1998 and 2008. All records between this period were collected retroactively (LaFree, 2010).
+\\\\
+
+\textbf{2012 - Present}\\\\
+Since 2007, the GTD has been funded by the Homeland of Security, with very little change to their methodology. However, in 2012 they were also jointly funded by the U.S State Department and moved base of operations to the University of Maryland, where they began to handle data collection locally, instead of through vendors (START, 2016). This change created a spike in the frequency of suicide attacks between 2011 and 2012 that was not observant in similar databases, such as Chicago Project on Security and Terrorism’s Suicide Attack Database (CPOST, 2016).
+\\\\
+\\\\
+
+\includegraphics[width=0.9\textwidth]{backgroundpic1.png}
+\\\\
+\\\\
+
+START has drawn criticism and been accused of politicizing their data (Pape, Kevin, Bauer, \& Jenkins, 2014). START dispute this, and cite their change from vendor based data collection to local based data collection as the reason for this increase in attacks in their data. (START GTD, 2017)
+
+\subsection{START’s response to criticism }
+
+In response to these issue, START has publicly stated that differences in trends before and after 1997, before and after 2008, and before and after 2012, can be, at least partially contributed to their data collection methodologies. START recommend any research using GTD data should adjust for these differences (START GTD, 2017).
+\\\\
+\\\\
+
+\includegraphics[width=0.9\textwidth]{backgroundpic2.png}
+
+\newpage
+
+
 
 \section{Method}
 \subsection{Data}
@@ -93,25 +165,37 @@ The results produced as outlined by the \textit{Methods} section are below group
 	\section{Discussion} 
 
 \subsection{Terrorism coverage in United States news data}
-The aim in this section is to Explore the relationship between Terrorist attacks, deaths and media coverage of attacks in the United States. In \textbf{section}, Figure \textbf{newyourk times articles mentioning terrorism by month}, the proportion of terrorism articles to total articles each month has a a positive linear regression, showing that through the 45 from 1970 to 2015, more articles each month is being written about terrorism. From 1970 to September 2001 this linear regression is followed closely without much deviation but in in September, 2001 there is a large spike, where the ratio peaked \textit{VALUE}, this was the month of \textit{911}, where there was a fatality count of \textit{2997} people. Soon after this month the ratio slowly decreased until it settled onto the linear regression line, following it again with little deviation. 
+The aim in this section is to Explore the relationship between Terrorist attacks, deaths and media coverage of attacks in the United States. In \textbf{section}, Figure \textbf{newyourk times articles mentioning terrorism by month}, the proportion of terrorism articles to total articles each month has a a positive linear regression, showing that through the 45 from 1970 to the end of 2015, more articles each month is being written about terrorism. From 1970 to September 2001 this linear regression is followed closely without much deviation but in in December, the month after \textit{911}, 2001 there is a large spike in terrorism articles, where the ratio peaked \textit{0.318667236}, this was the month of \textit{911}, where there was a fatality count of \textit{2997} people. Soon after this month the ratio slowly decreased until it settled onto the linear regression line, following it again with little deviation. 
 \\\\
-
-\subsection{Terrorism coverage in the United States news data}
+Further, when looking at \textit{Figure United states terror and news statistics}, it can be seen that in Unites States, In the long term, since 1970, the ratio of terrorism articles to total articles is increasing, the number of attacks and deaths are decreasing across the country. When looking at the recent time, since 2012, there has been a gradual increase in attacks and deaths, that is also represented in the increase in the media. This shows that while the 
+\\\\
 
 
 \subsection{Methods of Attack}
+In this section we explore the the hidden trends in methods of terrorism attacks. Looking at \textit{Figure GLOBAL TERROR ATTACKS BY ATTACK TYPE}, there is a great increase in bombing/explosion and armed assault for both death count and attack count but in further analysis, it is seen that the way to view this trend is not globally, but by looking at it in regions.
+\\\\
+In \textit{Figure Western Terror Attacks by Attack type}, the western countries have a close to consistent ratio of different attack types from 1970 to 2015 for both death count and attack counts. When this is contrasted to \textit{figure terror attacks by attack type in Iraq.. }, the 6 countries with highest deaths from terrorist attacks, it is evident that they are not similar at all. In the Top six countries bombing/Explosion and armed assault significantly increased from 2000 in the death and attack count, and Hostage Taking and unknown increasing from the 2003, largely contributing to the death count.
+\\\\
+\textit{Further looking at figure united stated terror attacks by attack type}, the amount of attacks and type of attacks have been decreasing since 1970. In \textit{figure united states terror attack deaths by attack types}, the amount of deaths are also low with armed assault, bombing/Explosion, and facility/infrastructure attack being the highest.
+\\\
 
 \subsection{Terrorism trends over time}
 
 \subsection{Rates of success in terrorist attacks}
 As shown in the results section *.*, the rates of success of terrorist attacks do not vary greatly between regions and clusters of countries. Despite a greatly varying number of attacks and deaths, especially between the two main country clusters investigated (western countries and the top six countries with regard to total deaths as a result of terrorism), countries in these two clusters have very similar rates of success over time. 
-\\\\
-For a sample of 6 western countries: United States, Canada, Australia, France, Finland and Russia; the respective mean success rates over the period of time 1970-2015 are 0.807, 0.725, 0.869, 0.904, 0.984 and 0.828. However these means misrepresent the number of successes and failures comparatively. Finland, with the highest success rate of the six western countries shown, however over the given time period, has had a total of 15 terrorist attacks, 14 of which were successful. 
+
+
+\subsubsection{Westernized Countries}
+For a sample of 6 western countries: United States, Canada, Australia, France, Finland and Russia; the respective mean success rates over the period of time 1970-2015 are 0.807, 0.725, 0.869, 0.904, 0.984 and 0.828; an overall mean success rate of 0.853. However these means misrepresent the number of successes and failures comparatively. Finland, with the highest success rate of the six western countries shown, however over the given time period, has had a total of 15 terrorist attacks, 14 of which were successful. 
 
 Five of the six countries have had years during this period with no terrorist attacks, Canada: 20, Australia: 17, France: 2, Finland: 38, Russia: 22. The United States however, with a comparatively lower mean success rate, has had no years without a terrorist attack. The rate of success in the United States, despite counter-terrorism related government funding having doubled between 2001 and 2013 (Desilver, 2013).
 \\\\
 Other westernised countries specified above however, due to the low number terrorist attacks year to year, with.
-The highest number of attacks for each country in any given year: Australia, 9; Finland, 9; Canada, 5; United States, 468; France, 270; Russia, 251. The success rate for Australia, Finland and Canada becomes increasingly random, or in the case of Finland, increasingly high. However as seen in the United States, overall stable
+The highest number of attacks for each country in any given year: Australia, 9; Finland, 9; Canada, 5; United States, 468; France, 270; Russia, 251. The success rate for Australia, Finland and Canada becomes increasingly random, or in the case of Finland, increasingly high. However as seen in the United States, there is an overwhelmingly stable rate of success for terrorist attacks over the 45 year period. It must be noted that in all of the western countries shown in \textit{Figure *******}, the number of has decreased greatly among countries with previously high rates of attack (United States, France and Russia). As a result, \textit{Figure ******} shows erratic success rates for a small number of attacks in a given year. Despite this, it is evident in \textit{Figure **** (Attempts vs Successes)} that the ratio of successful attacks to total attacks is comparatively high, with a mean of 0.853 as noted previously.
+\\\\
+In the six westernised countries investigated in Figures *,*,*,* and *, the number of attacks has decreased over the period of time in question with even recent years a decrease of attack attempts from 251 to 21 and successes from 213 to 16 between 2010 and 2015. With rate of success decreasing from 0.849 in 2010 to 0.762 in 2015. However this decrease, while being of great magnitude, due to the decreased number of attacks may be skewed. On the contrary in 2014, a success rate of 0.896 was observed. As a result, while the number of attacks is decreasing, it can be said that the rate of success for these attacks is not.
+\\\\
+While the rate of success for attacks in the west does not appear to be changing drastically in both 
 \section{Conclusion} 
 
 
@@ -124,6 +208,58 @@ National Consortium for the Study of Terrorism and Responses to Terrorism (START
 Retrieved from https://www.start.umd.edu/gtd
 
 \bibitem{2}
+Charters, D. (1989). Terrorism: A survey of recent literature. Conflict Quaterly, 64-84.
+
+\bibitem{3}
+Cornell Law. (n.d.). 18 U.S Code. Retrieved from https://www.law.cornell.edu/text/18/2331
+
+\bibitem{4}
+CPOST. (2016, June). The Chicago Project on Security and Terrorism. 
+Retrieved from University of Chicago: http://cpost.uchicago.edu/
+
+\bibitem{5}
+DoD. (2010). DoD Dictionary of Military and Associated Terms. 
+Retrieved from http://www.dtic.mil/doctrine/new\_pubs/dictionary.pdf
+
+\bibitem{6}
+FBI. (2002). Terrorism 2002 - 2005. 
+Retrieved from https://www.fbi.gov/stats-services/publications/terrorism-2002-2005
+
+\bibitem{7}
+FEMA. (2013, July 25). Terrorism. 
+Retrieved from FEMA.gov: https://www.fema.gov/media-library-data/20130726-1549-20490-0802/terrorism.pdf
+
+\bibitem{8}
+Hill, O. (2016). Contra Wars: The CIA and Its Own Definition of Terrorism. Crescast Scientia Journal of history, 55.
+
+\bibitem{9}
+LaFree, G. (2010). The Global Terrorism Database: Accomplishments and Challenges. 
+Retrieved from Persepectives on Terrorism Vol 4, No 1: http://www.terrorismanalysts.com/pt/index.php/pot/article/view/89/html
+
+\bibitem{10}
+LaFree, G., \& Dugan, L. (2004). How does studying terrorism compare to studying crime? 
+Retrieved from Terrorism and Counter-Terrorism (Sociology of Crime, Law and Deviance, Volume 5) Emerald Group Publishing Limited, pp.53 - 74: http://www.emeraldinsight.com/doi/pdfplus/10.1108/S1521-6136%282004%290000005006
+
+\bibitem{11}
+Lafree, G., \& Dugan, L. (2007). Introducing the Global Terrorism Database. 
+Retrieved from Terrorism and Political Violence: https://ccjs.umd.edu/sites/ccjs.umd.edu/files/pubs/FTPV\_A\_224594.pdf
+
+\bibitem{12}
+LaFree, G., Dugan, L., \& Scott, J. (2006). Building a Global terrorism Database. 
+Retrieved from University of Maryland: https://www.ncjrs.gov/pdffiles1/nij/grants/214260.pdf
+
+\bibitem{13}
+Legal Information Institute. (2016). 22 U.S Code. 
+Retrieved from Cornell Law School: https://www.law.cornell.edu/uscode/text/22/2656f
+
+\bibitem{14}
+Merari, A. (2007, December 21). Academic research and government policy on terrorism. 
+Retrieved from Terrorism and Political Violence: http://www.tandfonline.com/doi/abs/10.1080/09546559108427094
+
+\bibitem{15}
+Pape, R., Kevin, R., Bauer, V., \& Jenkins, G. (2014, August 11). How to fix the flaws in the Global Terrorism Database and why it matters. Retrieved from New York Times: 
+
+\bibitem{16}
 Desilver, D. (2013). \textit{U.S. spends over \$16 billion annually on counter-terrorism}.
 Retrieved from http://www.pewresearch.org/fact-tank/2013/09/11/u-s-spends-over-16-billion-annually-on-counter-terrorism/
 
