@@ -1,16 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.16)  12 JUN 2017 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.13)  13 JUN 2017 16:55
 entering extended mode
 **./Final_Report.tex
 (Final_Report.tex
-LaTeX2e <2016/03/31> patch level 1
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.c
-ls"
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.cl
-o"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,21 +21,20 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu
-"
-File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -251,6 +246,8 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -271,13 +268,14 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.df
-u"
-File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -317,9 +315,8 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.df
-u"
-File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -342,47 +339,41 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmat
-h.sty"
-Package: amsmath 2016/03/10 v2.15b AMS math features
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstex
-t.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count88
 \leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count90
 \DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -403,54 +394,44 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfo
-nts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssy
-mb.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
-icx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
-l.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
-ics.sty"
-Package: graphics 2016/06/02 v1.0s Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graph
-ics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdf
-tex.def"
-File: pdftex.def 2016/06/17 v0.06h Graphics/color for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
-warerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
-cmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
@@ -458,33 +439,27 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\sc
-rextend.sty"
-Package: scrextend 2016/06/14 v3.21 KOMA-Script package (extend other classes w
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrextend.sty"
+Package: scrextend 2017/04/13 v3.23 KOMA-Script package (extend other classes w
 ith features of KOMA-Script classes)
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\sc
-rkbase.sty"
-Package: scrkbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-dependent b
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\sc
-rbase.sty"
-Package: scrbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-independent 
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\sc
-rlfile.sty"
-Package: scrlfile 2016/06/14 v3.21 KOMA-Script package (loading files)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
 
-Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 )))
-LaTeX Info: Redefining \textsubscript on input line 1293.
-)
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfi
-g.sty"
+LaTeX Info: Redefining \textsubscript on input line 1298.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
 \wrapoverhang=\dimen114
 \WF@size=\dimen115
 \c@WF@wrappedlines=\count100
@@ -492,15 +467,15 @@ g.sty"
 \WF@everypar=\toks22
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumi
-tem.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip46
 \enit@outerparindent=\dimen116
 \enit@toks=\toks23
 \enit@inbox=\box29
 \enitdp@description=\count101
-) (Final_Report.aux)
+)
+(Final_Report.aux)
 \openout1 = `Final_Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -515,9 +490,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
-
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pd
-f.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen117
@@ -530,48 +503,38 @@ f.mkii"
 \MPnumerator=\count106
 \makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks25
-)
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdf
-texcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifl
-uatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifp
-df.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
-pdf-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfex
-t.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvd
-efinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
-ions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvs
-etkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ete
-xcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -584,7 +547,8 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) <monash-university-logo.png, id=1, 401.5pt x 401.5pt>
+)
+<monash-university-logo.png, id=1, 401.5pt x 401.5pt>
 File: monash-university-logo.png Graphic file (type png)
 
 <use monash-university-logo.png>
@@ -592,18 +556,16 @@ Package pdftex.def Info: monash-university-logo.png used on input line 41.
 (pdftex.def)             Requested size: 137.9979pt x 137.9969pt.
  [1
 
-{C:/Users/kocyb_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./monas
-h-university-logo.png>] (Final_Report.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./monash-university-logo.
+png>] (Final_Report.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.
-fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.
-fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
@@ -853,8 +815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 151.
 
-("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -890,137 +851,169 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--181
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 191--199
+Underfull \hbox (badness 10000) in paragraph at lines 191--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--199
+Underfull \hbox (badness 10000) in paragraph at lines 191--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--199
+Underfull \hbox (badness 10000) in paragraph at lines 191--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--202
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 201--209
+Underfull \hbox (badness 10000) in paragraph at lines 204--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--209
+Underfull \hbox (badness 10000) in paragraph at lines 204--229
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--229
+
+ []
+
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 []\OT1/cmr/m/n/10 Cornell Law. (n.d.). 18 U.S Code. Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
 []\OT1/cmr/m/n/10 FBI. (2002). Ter-ror-ism 2002 - 2005. Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
 []\OT1/cmr/m/n/10 FEMA. (2013, July 25). Ter-ror-ism. Re-trieved from FEMA.gov:
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
 \OT1/cmr/m/n/10 https://www.fema.gov/media-library-data/20130726-1549-20490-
  []
 
 
-Overfull \hbox (1.94528pt too wide) in paragraph at lines 247--249
+Overfull \hbox (1.94528pt too wide) in paragraph at lines 273--275
 \OT1/cmr/m/n/10 http://www.terrorismanalysts.com/pt/index.php/pot/article/view/
 89/html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--253
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
 []\OT1/cmr/m/n/10 LaFree, G., & Dugan, L. (2004). How does study-ing ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--253
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
 \OT1/cmr/m/n/10 ror-ism com-pare to study-ing crime? Re-trieved from Ter-ror-
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 251--253
+Underfull \hbox (badness 7522) in paragraph at lines 277--279
 \OT1/cmr/m/n/10 ism and Counter-Terrorism (So-ci-ol-ogy of Crime, Law and De-
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 251--253
+Underfull \hbox (badness 1571) in paragraph at lines 277--279
 \OT1/cmr/m/n/10 viance, Vol-ume 5) Emer-ald Group Pub-lish-ing Lim-ited, pp.53 
 - 74:
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 255--257
+Underfull \hbox (badness 5147) in paragraph at lines 281--283
 []\OT1/cmr/m/n/10 Lafree, G., & Dugan, L. (2007). In-tro-duc-ing the Global Ter
 -
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 255--257
+Underfull \hbox (badness 3557) in paragraph at lines 281--283
 \OT1/cmr/m/n/10 ror-ism Database. Re-trieved from Ter-ror-ism and Po-lit-i-cal 
 Vi-o-lence:
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 259--261
+Underfull \hbox (badness 3108) in paragraph at lines 285--287
 []\OT1/cmr/m/n/10 LaFree, G., Dugan, L., & Scott, J. (2006). Build-ing a Global
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--261
+Underfull \hbox (badness 10000) in paragraph at lines 285--287
 \OT1/cmr/m/n/10 ter-ror-ism Database. Re-trieved from Uni-ver-sity of Mary-land
 :
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 274--276
+Underfull \hbox (badness 6268) in paragraph at lines 300--302
 []\OT1/cmr/m/n/10 Desilver, D. (2013). \OT1/cmr/m/it/10 U.S. spends over \OT1/c
 mr/m/sl/10 $\OT1/cmr/m/it/10 16 bil-lion an-nu-ally on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--276
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 \OT1/cmr/m/it/10 counter-terrorism\OT1/cmr/m/n/10 . Re-trieved from http://www.
 pewresearch.org/fact-
  []
 
-[11] [12] (Final_Report.aux) ) 
+[12] [13] (Final_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 3744 strings out of 493335
- 53972 string characters out of 3128498
- 138032 words of memory out of 3000000
- 7209 multiletter control sequences out of 15000+200000
+ 3757 strings out of 493323
+ 51895 string characters out of 3139051
+ 139569 words of memory out of 3000000
+ 7231 multiletter control sequences out of 15000+200000
  8162 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,4n,39p,965b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kocyb_000/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kocyb
-_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/kocyb_000/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/kocyb_000/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ko
-cyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
-.pfb>
-Output written on Final_Report.pdf (13 pages, 181295 bytes).
+ 48i,4n,39p,965b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Final_Report.pdf (14 pages, 184204 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

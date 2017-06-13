@@ -56,7 +56,7 @@ gt <- ggplotGrob(p)
 gt$layout$clip[gt$layout$name == "panel"] <- "off"
 grid.draw(gt)
 
-# ---- Successes vs Attempts
+# ---- Successes vs Attempts ----
 count <- 1
 successes <- vector(mode="numeric")
 attempts <- vector(mode="numeric")
