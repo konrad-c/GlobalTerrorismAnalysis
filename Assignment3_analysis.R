@@ -63,7 +63,15 @@ attempts <- vector(mode="numeric")
 country_vec <- vector(mode="character")
 year_vec <- vector(mode="numeric")
 # Top6
-sf_sub <- sf[grep(paste(plot_data$countries, collapse='|'), sf$country_txt, ignore.case=TRUE),]
+top6countries <- c(
+  "Iraq",
+  "Afghanistan",
+  "Pakistan",
+  "India",
+  "Nigeria",
+  "Sri Lanka"
+)
+sf_sub <- sf[grep(paste(top6countries, collapse='|'), sf$country_txt, ignore.case=TRUE),]
 # Western Countries
 sf_sub <- sf[grep(paste(western_countries[1:6], collapse='|'), sf$country_txt, ignore.case=TRUE),]
 # United states
@@ -72,6 +80,7 @@ sf_sub <- sf[sf$country_txt == "United States", ]
 countries <- unique(as.character(sf_sub$country_txt))
 for(country in countries){
   sf_subset <- sf_sub[sf_sub$country_txt == country, ]
+  sf_subset <- sf_sub
   for(year in unique(sf$iyear)){
     #country_vec[[count]] <- country
     year_vec[[count]] <- year
@@ -88,11 +97,16 @@ success_time <- data.frame(
   Attempts=attempts,
   Proportion=successes/attempts
 )
+sum(success_time$Successes[40:45])/sum(success_time$Attempts[40:45])
+sum(success_time$Attempts[40:45])
+sum(success_time$Successes[40:45])
+
+
 success_time$Proportion[which(success_time$Proportion == "NaN")] <- 0
 # Summary
 for(country in unique(success_time$Country)){
   print(country)
-  print(summary(success_time[success_time$Country==country, ]$Attempts))
+  print(summary(success_time[success_time$Country==country, ]))
 }
 
 plots <- list()

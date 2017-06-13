@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.16)  12 JUN 2017 10:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.16)  12 JUN 2017 11:41
 entering extended mode
 **./Final_Report.tex
 (Final_Report.tex
@@ -904,86 +904,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--199
 
  []
 
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 201--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--209
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 []\OT1/cmr/m/n/10 Cornell Law. (n.d.). 18 U.S Code. Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--227
+Underfull \hbox (badness 10000) in paragraph at lines 236--238
 []\OT1/cmr/m/n/10 FBI. (2002). Ter-ror-ism 2002 - 2005. Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 []\OT1/cmr/m/n/10 FEMA. (2013, July 25). Ter-ror-ism. Re-trieved from FEMA.gov:
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 \OT1/cmr/m/n/10 https://www.fema.gov/media-library-data/20130726-1549-20490-
  []
 
 
-Overfull \hbox (1.94528pt too wide) in paragraph at lines 236--238
+Overfull \hbox (1.94528pt too wide) in paragraph at lines 247--249
 \OT1/cmr/m/n/10 http://www.terrorismanalysts.com/pt/index.php/pot/article/view/
 89/html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 []\OT1/cmr/m/n/10 LaFree, G., & Dugan, L. (2004). How does study-ing ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 \OT1/cmr/m/n/10 ror-ism com-pare to study-ing crime? Re-trieved from Ter-ror-
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 240--242
+Underfull \hbox (badness 7522) in paragraph at lines 251--253
 \OT1/cmr/m/n/10 ism and Counter-Terrorism (So-ci-ol-ogy of Crime, Law and De-
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 240--242
+Underfull \hbox (badness 1571) in paragraph at lines 251--253
 \OT1/cmr/m/n/10 viance, Vol-ume 5) Emer-ald Group Pub-lish-ing Lim-ited, pp.53 
 - 74:
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 244--246
+Underfull \hbox (badness 5147) in paragraph at lines 255--257
 []\OT1/cmr/m/n/10 Lafree, G., & Dugan, L. (2007). In-tro-duc-ing the Global Ter
 -
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 244--246
+Underfull \hbox (badness 3557) in paragraph at lines 255--257
 \OT1/cmr/m/n/10 ror-ism Database. Re-trieved from Ter-ror-ism and Po-lit-i-cal 
 Vi-o-lence:
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 248--250
+Underfull \hbox (badness 3108) in paragraph at lines 259--261
 []\OT1/cmr/m/n/10 LaFree, G., Dugan, L., & Scott, J. (2006). Build-ing a Global
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
 \OT1/cmr/m/n/10 ter-ror-ism Database. Re-trieved from Uni-ver-sity of Mary-land
 :
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 263--265
+Underfull \hbox (badness 6268) in paragraph at lines 274--276
 []\OT1/cmr/m/n/10 Desilver, D. (2013). \OT1/cmr/m/it/10 U.S. spends over \OT1/c
 mr/m/sl/10 $\OT1/cmr/m/it/10 16 bil-lion an-nu-ally on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 \OT1/cmr/m/it/10 counter-terrorism\OT1/cmr/m/n/10 . Re-trieved from http://www.
 pewresearch.org/fact-
  []
@@ -1008,7 +1018,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/kocyb_000/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ko
 cyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
 .pfb>
-Output written on Final_Report.pdf (13 pages, 180042 bytes).
+Output written on Final_Report.pdf (13 pages, 181295 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
