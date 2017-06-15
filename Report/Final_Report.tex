@@ -2,7 +2,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
-\usepackage{float}
 \usepackage{amssymb}
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \usepackage{graphicx}
@@ -163,7 +162,7 @@ The results produced as outlined by the \textit{Methods} section are below group
 \end{itemize}
 
 \begin{center}
-\begin{figure}[H]
+\begin{figure}[h!]
 		
 	\includegraphics[width=1\textwidth]{Plots/Top25countriesbydeaths.png}
 	\caption{Top 25 countries with the highest deaths due to terrorism}
@@ -175,21 +174,21 @@ The results produced as outlined by the \textit{Methods} section are below group
 \subsection{Terrorism coverage in the United States news data}
 
 \begin{center}
-\begin{figure}[H]
+\begin{figure}[h!]
 		
 	\includegraphics[width=0.8\textwidth]{Plots/NewsData/ArticlesByMonth.png}
 	\caption{New York Times article count and terrorism article count by month}
 
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h!]
 		
 	\includegraphics[width=0.8\textwidth]{Plots/NewsData/ArticlesByYear.png}
 	\caption{New York Times article count and terrorism article count by Year}
 
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h!]
 
 		
 	\includegraphics[width=0.8\textwidth]{Plots/NewsData/AttackNewsData.png}
@@ -202,21 +201,21 @@ The results produced as outlined by the \textit{Methods} section are below group
 \subsection{Method of Attack}
 
 \begin{center}
-\begin{figure}[H]
+\begin{figure}[h!]
 		
 	\includegraphics[width=0.8\textwidth]{Plots/AttackType/Attacks.png}
 	\caption{United States terror Attacks by Attack Type}
 
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h!]
 		
 	\includegraphics[width=0.8\textwidth]{Plots/AttackType/AttackTypeWesternCountries.png}
 	\caption{Western Terror Attacks by Attack Type}
 
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h!]
 
 		
 	\includegraphics[width=0.8\textwidth]{Plots/AttackType/Deaths.png}
@@ -224,7 +223,7 @@ The results produced as outlined by the \textit{Methods} section are below group
 	
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h!]
 
 		
 	\includegraphics[width=0.8\textwidth]{Plots/AttackType/Global.png}
@@ -232,7 +231,7 @@ The results produced as outlined by the \textit{Methods} section are below group
 	
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h!]
 
 		
 	\includegraphics[width=0.8\textwidth]{Plots/AttackType/Top6.png}
@@ -243,7 +242,7 @@ The results produced as outlined by the \textit{Methods} section are below group
 
 \subsection{Terrorism trends over time}
 \begin{center}
-\begin{figure}[H]
+\begin{figure}[h!]
 		
 	\includegraphics[width=0.8\textwidth]{Plots/OverTime/Attacks_over_time_grouped_by_deaths.png}
 	\caption{Number of attacks over time grouped by deaths}
@@ -254,19 +253,40 @@ The results produced as outlined by the \textit{Methods} section are below group
 \subsection{Rates of success in terrorist attacks}
 \begin{center}
 	
-\begin{figure}[H]
+\begin{figure}[h!]
+		
 	\includegraphics[width=0.8\textwidth]{Plots/OverTime/Successes_vs_Attempts_by_Year.png}
-	\caption{Plot showing the ratio of successes to total attempts in terrorist attacks globally.}
+	\caption{Ratio of successes Vs attempts in terrorist attacks in the United States}
+
 \end{figure}
 
-\begin{figure}[H]	
+\begin{figure}[h!]
+		
+	\includegraphics[width=0.8\textwidth]{Plots/OverTime/Top6ProportionSuccessAttempts.png}
+	\caption{Ratio of successes Vs attempts in terrorist attacks in the top six countries with the largest death tolls from terrorism}
+
+\end{figure}
+
+\begin{figure}[h!]
+		
 	\includegraphics[width=0.8\textwidth]{Plots/OverTime/Top6SuccessVsAttempts.png}
-	\caption{Successes and attempts in terrorist attacks plotted by value in the top six countries with the highest number of deaths as a result of terrorism.}
+	\caption{Successes and attempts in terrorist attacks graphed together on the same scale in the top six countries with the largest death tolls form terrorism}
+
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h!]
+		
+	\includegraphics[width=0.8\textwidth]{Plots/OverTime/WesternProportionSuccessAttempts.png}
+	\caption{Ratio of successes Vs attempts in terrorist attacks in six western countries; United states, Canada, Australia, France, Finland, Russia}
+
+\end{figure}
+
+\begin{figure}[h!]
+		
 	\includegraphics[width=0.8\textwidth]{Plots/OverTime/WesternSuccessVsAttempts.png}
-	\caption{Successes and attempts in terrorist attacks plotted by value in six western countries: United States, Canada, Australia, France, Finland and Russia.}
+	\caption{Successes and attempts in terrorist attacks graphed together on the same scale in six western countries; United states, Canada, Australia, France, Finland, Russia}
+
+
 \end{figure}
 	
 \end{center}
@@ -274,30 +294,33 @@ The results produced as outlined by the \textit{Methods} section are below group
 \section{Discussion} 
 
 \subsection{Terrorism coverage in United States news data}
-The aim in this section is to Explore the relationship between Terrorist attacks, deaths and media coverage of attacks in the United States. In \textbf{section}, Figure \textbf{newyourk times articles mentioning terrorism by month}, the proportion of terrorism articles to total articles each month has a a positive robust linear regression, showing that through the 45 from 1970 to the end of 2015, more articles each month is being written about terrorism. From 1970 to September 2001 this linear regression is followed closely without much deviation but in in December, 2001, the month after \textit{911}, where there was a fatality count of \textit{2997} people, there is a large spike in terrorism articles, where the ratio peaked \textit{0.318667236}. Soon after this attack the ratio slowly decreased until it settled onto the linear regression line, following it again with little deviation. 
+The aim in this section is to Explore the relationship between Terrorist attacks, deaths and media coverage of attacks in the United States. In \textit{Figure 4}, the proportion of terrorism articles to total articles each month has a positive gradient robust linear regression, showing that through the 45 years from 1970 to the end of 2015, although very marginal (0.00037), more articles each month is being written about terrorism. From 1970 to September 2001 this linear regression is followed closely without much deviation but in in December, 2001, the month after \textit{911}, where there was a fatality count of \textit{2997} people, there is a large spike in terrorism articles, where the ratio peaked \textit{0.318667236}. In the following years after this attack the ratio slowly decreased until it settled onto the robust linear regression line, following it again.
 \\\\
-Further, when looking at \textit{Figure United states terror and news statistics}, it can be seen that in Unites States, since 1970, while the ratio of terrorism articles to total articles is increasing, the number of attacks and deaths are decreasing. When looking at the recent time, since 2012, there has been a gradual increase in attacks and deaths, that is also represented in the increase in the media. This shows that while the 
+Further, when looking at \textit{Figure 6}, it can be seen that in Unites States, since 1970, while the ratio of terrorism articles to total articles is increasing, the number of attacks and deaths are decreasing. There could be multiple reasons why this is inversely proportional relationship between the ratio of articles and death/attack count such as the media following stories that would interest there readers due to a scare facto, the media being able to access more people through the uprise of the technology, expanding their target audience past people who read newspapers to everyone with an electronic devise, there being more threats of attacks but no actual attacks, there being a positive feedback loop between all of the news companies who are reporting of terrorism actions or America having more involvement. These reasons are all ideas though and have no statistical evidence, more data and time would be required to research this.
 \\\\
+When looking at the recent time, from 2012 to 2015, there has been a gradual increase in attacks and deaths, that is also represented in the increase in the media. Attacks and the article ration having a correlation of 0.38 and deaths and article ratio having a correlation of 0.41. This shows that the deaths, attacks and the number of articles related to terrorism are linked.
+\\\\ 
+From all of the data collected from the New York Times archives and being compared to the STAR terrorism archives, It is evident that there is a relationship between attacks, deaths and the ratio of terrorism articles to number of articles although there is a marginal increase in the ratio through the 45 years that is captured by START. This is seen in \textit{911, September 2001} where the deaths spiked and so did the article ratio, and from 2012 to 2015 there is a similar increase in deaths and articles.
+
 
 
 \subsection{Methods of Attack}
-In this section we explore the the hidden trends in methods of terrorism attacks. Looking at \textit{Figure GLOBAL TERROR ATTACKS BY ATTACK TYPE}, there is a great increase in bombing/explosion and armed assault for both death count and attack count but in further analysis, it is seen that the way to view this trend is not globally, but by looking at it in regions.
+In this section we explore the the hidden trends in methods of terrorism attacks. Looking at \textit{Figure 10}, there is a great increase in bombing/explosion and armed assault for both death count and attack count but in further analysis, it is seen that the way to view this trend is not globally, but by looking at it in regions due to some regions skewing the results and there being very different patterns through all of the different regions.
 \\\\
-In \textit{Figure Western Terror Attacks by Attack type}, the western countries have a close to consistent ratio of different attack types from 1970 to 2015 for both death count and attack counts. When this is contrasted to \textit{figure terror attacks by attack type in Iraq.. }, the 6 countries with highest deaths from terrorist attacks, it is evident that they are not similar at all. In the Top six countries bombing/Explosion and armed assault significantly increased from 2000 in the death and attack count, and Hostage Taking and unknown increasing from the 2003, largely contributing to the death count.
+In \textit{8}, the western countries although looking very erratic have a close to consistent ratio of different attack types from 1970 to 2015 for both death count and attack counts. This erratic nature of the graph is uninteresting and not minimal can be interpreted from it. When this is contrasted to \textit{Figure 11}, the 6 countries with highest deaths from terrorist attacks, it is evident that they are not similar at all.
 \\\\
-\textit{Further looking at figure united stated terror attacks by attack type}, the amount of attacks and type of attacks have been decreasing since 1970. In \textit{figure united states terror attack deaths by attack types}, the amount of deaths are also low with armed assault, bombing/Explosion, and facility/infrastructure attack being the highest.
+In the Top six countries bombing/Explosion and armed assault significantly increased from 2000 in the death and attack count, and Hostage Taking and unknown increasing from the 2003, largely contributing to the death count. This new uprise in terrorism related deaths is huge and could be related to a lot of reasons, such as poverty and war-torn city’s creating extremists coupled with new ways to find and recruit extremists and then organise and carry out the attacks due to the rise in technology and the new accessibility of instant free messaging and chat rooms, making it a lot easier to conduct such activities. These are just speculations though and more research will have to be done to prove/disprove them.
+\\\\
+\textit{Further looking at figure united stated terror attacks by attack type}, the amount of attacks and type of attacks have been decreasing since 1970. In \textit{9}, excluding the outlier \textit{911 in September 2001}, the amount of deaths are also low with armed assault, bombing/Explosion, and facility/infrastructure attack being the highest (27).
 \\\
+All around the world, each region follows a different rend line with the western countries having an erratic trend, showing minimal information, The top 6 countries with the highest terrorism related death toll having a very large increase deaths and America, whose attacks decreased. In general, armed assault, bombing/explosion, hijacking and hostage have increase over the years throughout all of the countries, resulting in them being the deadliest terrorist attack types.
+
+
 
 \subsection{Terrorism trends over time}
 
-Terrorism trends over time with regard to number of deaths as well as geographical trend visualisations have been conducted in depth in a number of investigations. 
-As a result this section of the investigation comprises a small portion of the overall analysis. 
-One aspect of the data that was explored was the trends in attacks by the number of deaths as a result of a given attack.
-
-
 \subsection{Rates of success in terrorist attacks}
-As shown in the results \textit{Figure 11}, the rates of success of terrorist attacks do not vary greatly on a global scale. However there exists a greatly varying number of attacks and deaths, especially between the two main country clusters investigated (western countries and the top six countries with regard to total deaths as a result of terrorism).
-However the rates of success in countries in these two clusters seem to vary on a small scale.
+As shown in the results section *.*, the rates of success of terrorist attacks do not vary greatly between regions and clusters of countries. Despite a greatly varying number of attacks and deaths, especially between the two main country clusters investigated (western countries and the top six countries with regard to total deaths as a result of terrorism), countries in these two clusters have very similar rates of success over time. 
 
 
 \subsubsection{Westernized Countries}
@@ -309,17 +332,16 @@ Other westernised countries specified above however, due to the low number terro
 In part this is visible in countries such as Finland and Australia where the overall number of attacks is low, and as such the success rate for years when there are no attacks are difficult to handle.
 For this analysis, additionally for the further analysis of success rates for the \textit{Top 6}, years with one or more attack are often considered in determining mean values. 
 \\\\
-The highest number of attacks for each country in any given year: Australia, 9; Finland, 9; Canada, 5; United States, 468; France, 270; Russia, 251. The success rate for Australia, Finland and Canada becomes increasingly random, or in the case of Finland, increasingly high. However as seen in the United States, there is an overwhelmingly stable rate of success for terrorist attacks over the 45 year period. It must be noted that in all of the western countries shown in \textit{Figure 13}, the number of attacks has decreased greatly among countries with previously high rates of attack (United States, France and Russia). As a result, one observes erratic success rates for a small number of attacks in a given year. Despite this, it is evident in \textit{Figure 13} that the ratio of successful attacks to total attacks is comparatively high, with a mean of 0.853 as noted previously.
+The highest number of attacks for each country in any given year: Australia, 9; Finland, 9; Canada, 5; United States, 468; France, 270; Russia, 251. The success rate for Australia, Finland and Canada becomes increasingly random, or in the case of Finland, increasingly high. However as seen in the United States, there is an overwhelmingly stable rate of success for terrorist attacks over the 45 year period. It must be noted that in all of the western countries shown in \textit{Figure *******}, the number of has decreased greatly among countries with previously high rates of attack (United States, France and Russia). As a result, \textit{Figure ******} shows erratic success rates for a small number of attacks in a given year. Despite this, it is evident in \textit{Figure **** (Attempts vs Successes)} that the ratio of successful attacks to total attacks is comparatively high, with a mean of 0.853 as noted previously.
 \\\\
-In the six westernised countries investigated in \textit{Figure 13}, the number of attacks has decreased over the period of time in question with even recent years a decrease of attack attempts from 251 to 21 and successes from 213 to 16 between 2010 and 2015. With rate of success decreasing from 0.849 in 2010 to 0.762 in 2015. However this decrease, while being of great magnitude, due to the decreased number of attacks may be skewed. On the contrary in 2014, a success rate of 0.896 was observed. As a result, while the number of attacks is decreasing, it can be said that the rate of success for these attacks is not.
+In the six westernised countries investigated in Figures *,*,*,* and *, the number of attacks has decreased over the period of time in question with even recent years a decrease of attack attempts from 251 to 21 and successes from 213 to 16 between 2010 and 2015. With rate of success decreasing from 0.849 in 2010 to 0.762 in 2015. However this decrease, while being of great magnitude, due to the decreased number of attacks may be skewed. On the contrary in 2014, a success rate of 0.896 was observed. As a result, while the number of attacks is decreasing, it can be said that the rate of success for these attacks is not.
 \\\\
 While the rate of success for attacks in the west does not appear to be changing drastically in both recent years and over the entire relevant time period, the number of attacks in each of the six countries investigated has decreased drastically. Consequently the rate of success is skewed by the total number of attacks yet remains at a significantly high level.
 
 \subsubsection{Top 6 Countries with respect to deaths from terrorist attacks}
-The top six countries with respect to deaths from terrorist attacks are decided upon using \textit{Figure 1}, and are subsequently Iraq, Afghanistan, Pakistan, Nigeria, India and Sri Lanka. These countries will be referred to as simply the \textit{Top 6} for the remainder of this section.
+The top six countries with respect to deaths from terrorist attacks are decided upon using \textit{Figure *.* Top 25 countries}, and are subsequently Iraq, Afghanistan, Pakistan, Nigeria, India and Sri Lanka. These countries will be referred to as simply the \textit{Top 6} for the remainder of this section.
 \\\\
-These countries, chosen for their comparatively high number of deaths due to terrorism, have higher mean success rates over the period of time between 1970 and 2015.
-The data can be observed in \textit{Figure 12}, however more in depth statistical measurements are outlined below. The countries outlined in the \textit{Top 6} have mean success rates of:
+These countries, chosen for their comparatively high number of deaths due to terrorism, have higher mean success rates over the period of time between 1970 and 2015. With mean success rates of:
 \\\\ 
 \indent Pakistan: 0.939\\
 \indent India: 0.918\\
@@ -340,14 +362,13 @@ As mentioned previously as part of the success rate analysis of western countrie
 \indent Sri Lanka: 0.844, 0.818 - 11 \\
 \indent Nigeria: 0.911, 0.912 - 637 \\
 \\
-While some of these countries show low rates of success in 2015 in comparison to their five year average such as Pakistan and India, it is key to note that the number of attacks as seen in \textit{Figure 12} is at an all time high.
+While some of these countries show low rates of success in 2015 in comparison to their five year average such as Pakistan and India, it is key to note that the number of attacks as seen in \textit{Figure ***.*** Success vs Attempts plot} is at an all time high.
 \\\\ 
 \subsubsection{Conclusions}
 Despite the large geographic difference between the \textit{Top 6} and the westernised countries investigated, there remains a very high success rate of terrorist attacks despite fluctuations in the number of attacks as a whole.
 In those Western countries alone, we see a high rate of success with minor fluctuations in countries with an additionally large number of attacks such as the United States.
 Countries with generally low numbers of terrorist attacks such as Finland and Australia, suffer from extremely high rates of success.
 Regardless of the geographic location, the rate of success seems to be significant, and in the two geographic clusters, greater than 0.8 in all countries excluding Canada, with a mean success rate of 0.725.
-Despite an increasing or decreasing number of attacks in any geographic region, over any given period of time, in both recent years and further in the past, the mean rate of success remains high.
 
 
 \section{Conclusion} 
