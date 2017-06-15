@@ -13,6 +13,7 @@
 \contentsline {subsection}{\numberline {4.2}Analysis}{7}
 \contentsline {section}{\numberline {5}Results}{8}
 \contentsline {subsection}{\numberline {5.1}Terrorism coverage in the United States news data}{8}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {5.2}Method of Attack}{9}
 \contentsline {subsection}{\numberline {5.3}Terrorism trends over time}{9}
 \contentsline {subsection}{\numberline {5.4}Rates of success in terrorist attacks}{10}
@@ -24,4 +25,17 @@
 \contentsline {subsubsection}{\numberline {6.4.1}Westernized Countries}{16}
 \contentsline {subsubsection}{\numberline {6.4.2}Top 6 Countries with respect to deaths from terrorist attacks}{17}
 \contentsline {subsubsection}{\numberline {6.4.3}Conclusions}{18}
+=======
+\contentsline {subsection}{\numberline {5.2}Method of Attack}{10}
+\contentsline {subsection}{\numberline {5.3}Terrorism trends over time}{12}
+\contentsline {subsection}{\numberline {5.4}Rates of success in terrorist attacks}{13}
+\contentsline {section}{\numberline {6}Discussion}{14}
+\contentsline {subsection}{\numberline {6.1}Terrorism coverage in United States news data}{14}
+\contentsline {subsection}{\numberline {6.2}Methods of Attack}{14}
+\contentsline {subsection}{\numberline {6.3}Terrorism trends over time}{15}
+\contentsline {subsection}{\numberline {6.4}Rates of success in terrorist attacks}{15}
+\contentsline {subsubsection}{\numberline {6.4.1}Westernized Countries}{15}
+\contentsline {subsubsection}{\numberline {6.4.2}Top 6 Countries with respect to deaths from terrorist attacks}{16}
+\contentsline {subsubsection}{\numberline {6.4.3}Conclusions}{17}
+>>>>>>> cbb1b4783e6e5f680789735d39f3d6c5f11113cc
 \contentsline {section}{\numberline {7}Conclusion}{18}
