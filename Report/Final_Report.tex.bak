@@ -69,11 +69,11 @@ The scientific study of terrorism is plagued by three common issues throughout t
 			\subsubsection{Issue One: No universal agreement on a single definition of terrorism}
 A common issue in the scientific study of terrorism is that there is no universal agreement on a single definition of terrorism (Charters, 1989). This lack of a common definition makes conveying sophisticated and nuanced ideas on terrorism difficult at best, as the definition of terrorism being used often depends upon the perspective the user is taking (Hill, 2016).  A clear example of this can be seen within the different agencies of the US government, many of which use different definitions of terrorism dependent of the departments priorities. \\\\
 
-The US Department of State defines terrorism as “…means premeditated, politically motivated violence perpetrated against noncombatant targets by subnational groups or clandestine agents” (22 U.S Code) which focuses on politically motivated acts behind terrorism.  \\\\
+The US Department of State defines terrorism as “…means premeditated, politically motivated violence perpetrated against noncombatant targets by subnational groups or clandestine agents” (22 U.S Code) which focuses on politically motivated acts behind terrorism.    \\\\
 
-The US Federal Emergency Management Agency defines terrorism as “…the use of force or violence against persons or property in violation of the criminal laws of the United States for purposes of intimidation, coercion, or ransom.” (FEMA, 2013), which is a focus on the criminal acts of terrorism.\\\\ 
+The US Federal Emergency Management Agency defines terrorism as “…the use of force or violence against persons or property in violation of the criminal laws of the United States for purposes of intimidation, coercion, or ransom.” (FEMA, 2013), which is a focus on the criminal acts of terrorism. \\\\ 
 
-The Federal Bureau of Investigations defines terrorism as “The unlawful use of force or violence against persons or property to intimidate or coerce a government, the civilian population, or any segment thereof, in furtherance of political or social objectives.” (FBI, 2002) which encompasses political, criminal and social aspects of terrorism. \\\\
+The Federal Bureau of Investigations defines terrorism as “The unlawful use of force or violence against persons or property to intimidate or coerce a government, the civilian population, or any segment thereof, in furtherance of political or social objectives.” (FBI, 2002) which encompasses political, criminal and social aspects of terrorism.  \\\\
 
 There are also different definitions used by the U.S Department of Defense (DoD, 2010), the U.S Army Manual (U.S Army, 2001), and the U.S Congress (18 U.S Code), all of which focus on the different priorities of each department/branch of government. \\\\
 
@@ -265,11 +265,13 @@ From all of the data collected from the New York Times archives and being compar
 
 
 \subsection{Methods of Attack}
-In this section we explore the the hidden trends in methods of terrorism attacks. Looking at \textit{Figure 10}, there is a great increase in bombing/explosion and armed assault for both death count and attack count but in further analysis, it is seen that the way to view this trend is not globally, but by looking at it in regions due to some regions skewing the results and there being very different patterns through all of the different regions.
+In this section we explore possible trends in methods of terrorism attacks. Looking at \textit{Figure 10}, there is a great increase in bombing/explosion and armed assault for both death count and attack count but in further analysis, it is seen that these trends are specific to country clusters.
 \\\\
-In \textit{8}, the western countries although looking very erratic have a close to consistent ratio of different attack types from 1970 to 2015 for both death count and attack counts. This erratic nature of the graph is uninteresting and not minimal can be interpreted from it. When this is contrasted to \textit{Figure 11}, the 6 countries with highest deaths from terrorist attacks, it is evident that they are not similar at all.
+In \textit{8}, the western countries although looking very erratic have a close to consistent ratio of different attack types from 1970 to 2015 for both death count and attack counts. There exists an erratic nature to this graph with no apparent overarching trend. When this is contrasted to \textit{Figure 11}, the 6 countries with highest deaths from terrorist attacks, a number of differences are evident.
 \\\\
-In the Top six countries bombing/Explosion and armed assault significantly increased from 2000 in the death and attack count, and Hostage Taking and unknown increasing from the 2003, largely contributing to the death count. This new uprise in terrorism related deaths is huge and could be related to a lot of reasons, such as poverty and war-torn city’s creating extremists coupled with new ways to find and recruit extremists and then organise and carry out the attacks due to the rise in technology and the new accessibility of instant free messaging and chat rooms, making it a lot easier to conduct such activities. These are just speculations though and more research will have to be done to prove/disprove them.
+In the Top six countries bombing/Explosion and armed assault significantly increased from 2000 in the death and attack count. Hostage Taking and unknown increasing from 2003, largely contributing to the death count. 
+$ Speculation $
+We speculate, that the rise in terrorism related deaths may be the result of numerous reasons: poverty and war-torn regions creating extremists, coupled with new ways to find and recruit extremists. Additionally due to the increased use of technology and the accessibility of secure messaging and chat rooms, making it a lot easier to conduct such activities. These are just speculations though and more research will have to be done to prove/disprove them.
 \\\\
 \textit{Further looking at figure united stated terror attacks by attack type}, the amount of attacks and type of attacks have been decreasing since 1970. In \textit{9}, excluding the outlier \textit{911 in September 2001}, the amount of deaths are also low with armed assault, bombing/Explosion, and facility/infrastructure attack being the highest (27).
 \\\
@@ -292,12 +294,11 @@ Overall 88\% of attacks result in less than 5 deaths.
 97\% of all attacks result in less than 20 deaths.
 The mean number of deaths per attack globally is 2.36. 
 Ultimately, despite the greatly increasing number of attacks on a global scale, the number of deaths per attack is small. 
-Since the GTD also classifies attacks on infrastructure as an attack, where nobody dies.
-Looking only at attacks where one or more people die, we see the mean deaths per attack  increase to 4.92, more than double.
+Looking only at attacks where one or more people die, we see the mean deaths per attack  increase to 4.92.
 \\\\
 
 \subsection{Rates of success in terrorist attacks}
-As shown in the results section *.*, the rates of success of terrorist attacks do not vary greatly between regions and clusters of countries. Despite a greatly varying number of attacks and deaths, especially between the two main country clusters investigated (western countries and the top six countries with regard to total deaths as a result of terrorism), countries in these two clusters have very similar rates of success over time. 
+As shown in the \textit{Figure 13}, the rates of success of terrorist attacks do not vary greatly on a global scale. Despite a greatly varying number of attacks and deaths, especially between the two main country clusters investigated (western countries and the top six countries with regard to total deaths as a result of terrorism), countries in these two clusters have very similar rates of success over time. 
 
 
 \subsubsection{Westernised Countries}
@@ -305,13 +306,9 @@ For a sample of 6 western countries: United States, Canada, Australia, France, F
 
 Five of the six countries have had years during this period with no terrorist attacks, Canada: 20, Australia: 17, France: 2, Finland: 38, Russia: 22. The United States however, with a comparatively lower mean success rate, has had no years without a terrorist attack. The rate of success in the United States, despite counter-terrorism related government funding having doubled between 2001 and 2013 (Desilver, 2013).
 \\\\
-Other westernised countries specified above however, due to the low number terrorist attacks year to year, show very erratic rates of success over the time period.
-In part this is visible in countries such as Finland and Australia where the overall number of attacks is low, and as such the success rate for years when there are no attacks are difficult to handle.
-For this analysis, additionally for the further analysis of success rates for the \textit{Top 6}, years with one or more attack are often considered in determining mean values. 
+Other westernised countries specified above however, due to the low number terrorist attacks year to year, show very erratic rates of success over the time period. The success rate for Australia, Finland and Canada become increasingly random, or in the case of Finland, increasingly high, due to very few attacks. In the United States, there is an overwhelmingly stable rate of success for terrorist attacks over the 45 year period. Despite this, it is evident in \textit{Figure 15} that the ratio of successful attacks to total attacks is comparatively high, with a mean of 0.853 as noted previously.
 \\\\
-The highest number of attacks for each country in any given year: Australia, 9; Finland, 9; Canada, 5; United States, 468; France, 270; Russia, 251. The success rate for Australia, Finland and Canada becomes increasingly random, or in the case of Finland, increasingly high. However as seen in the United States, there is an overwhelmingly stable rate of success for terrorist attacks over the 45 year period. It must be noted that in all of the western countries shown in \textit{Figure 15}, the number of has decreased greatly among countries with previously high rates of attack (United States, France and Russia). As a result, we see erratic success rates for a small number of attacks in a given year. Despite this, it is evident in \textit{Figure 15} that the ratio of successful attacks to total attacks is comparatively high, with a mean of 0.853 as noted previously.
-\\\\
-In the six westernised countries investigated in \textit{Figure 15}, the number of attacks has decreased over the period of time in question with even recent years a decrease of attack attempts from 251 to 21 and successes from 213 to 16 between 2010 and 2015. With rate of success decreasing from 0.849 in 2010 to 0.762 in 2015. However this decrease, while being of great magnitude, due to the decreased number of attacks may be skewed. On the contrary in 2014, a success rate of 0.896 was observed. As a result, while the number of attacks is decreasing, it can be said that the rate of success for these attacks is not.
+In the six westernised countries investigated in \textit{Figure 15}, the number of attacks has decreased over the 45 years. Recent years show a decreased number of attempts from 251 to 21 and successes from 213 to 16 between 2010 and 2015. With the rate of success decreasing from 0.849 in 2010 to 0.762 in 2015. However this decrease, while being of great magnitude, due to the decreased number of attacks may be skewed. Comparatively in 2014, a success rate of 0.896 was observed. As a result, while the number of attacks is decreasing, it can be said that the rate of success for these attacks is not.
 \\\\
 While the rate of success for attacks in the west does not appear to be changing drastically in both recent years and over the entire relevant time period, the number of attacks in each of the six countries investigated has decreased drastically. Consequently the rate of success is skewed by the total number of attacks yet remains at a significantly high level.
 
@@ -328,9 +325,9 @@ The data in \textit{Figure 14} shows the number of successful attacks as well as
 \indent Sri Lanka: 0.936\\
 \indent Nigeria: 0.932\\
 \\
-An overall mean success rate of 0.922, higher than that in the western countries mentioned by 0.069. The rate of success in these countries is approximately 0.07 higher than in western countries, however in 2010-2015 alone there were 36978 attacks and 32788 successes, an overall mean success rate of 0.887 over the five year period. In comparison to the mean success rate in western countries over the same time period, while a greatly decreased number of attacks and successes (1110 and 936 respectively), the success rate was 0.843. The difference in success rates of terrorist attacks in two vastly different groups of countries with respect to geographical location as well as number of deaths due to terrorist attacks, differs by only 0.044.
+An overall mean success rate of 0.922, higher than that in the western countries mentioned by 0.069. In 2010-2015 alone there were 36978 attacks and 32788 successes, an overall mean success rate of 0.887 over the five year period. Comparatively, in western countries over the same time period, despite only 1110 attacks and 936 successes, the success rate was 0.843. The difference in success rates of terrorist attacks in these two country clusters determined by geographical location terrorism related deaths, differs by only 0.044.
 \\\\
-As mentioned previously as part of the success rate analysis of western countries, the success rate can be skewed by a very low number of attacks. This can be observed for all of the Top 6 countries in the first portion of the time period shown. However for all of the Top 6, excluding Sri Lanka, in the most recent time period (2000-2015), the number of attacks has rapidly grown, with 36978 attacks and 32788 successes in that time period alone. With this massive increase in the number of attacks however, we see a convergence of success rates among almost all of the six countries. With the average success rate over the six countries reaching 0.835 in 2015, country specific success rates maintain high mean values over the five year period however we see at the peak number of attacks for a number of these countries, a drop in the success rate:
+In the most recent time period (2000-2015) for all of the Top 6 countries excluding Sri Lanka, the number of attacks has rapidly grown. Overall there were 36978 attacks and 32788 successes in this time period. With high attack numbers, we see success rates converge for almost all of the six countries. With the average success rate over the six countries reaching 0.835 in 2015, country specific success rates maintain high mean values over the five year period. With a peak number of attacks for a number of these countries in 2015, we see a drop in the success rate:
 \\\\
 \indent \indent(Country: five year mean, 2015 success rate - 2015 attack number) \\
 \indent Pakistan: 0.873,  0.781 - 1235  \\
@@ -340,7 +337,7 @@ As mentioned previously as part of the success rate analysis of western countrie
 \indent Sri Lanka: 0.844, 0.818 - 11 \\
 \indent Nigeria: 0.911, 0.912 - 637 \\
 \\
-While some of these countries show low rates of success in 2015 in comparison to their five year average such as Pakistan and India, it is key to note that the number of attacks as seen in \textit{Figure 14} is at an all time high.
+Only Nigeria shows a similar rate of success in 2015 in comparison to their five year average. It is key to note that the number of attacks in 2015 as seen in \textit{Figure 14} is at an all time high for each country. The reason for this is an area for further investigation.
 
 \subsubsection{Conclusion}
 Despite the large geographic difference between the \textit{Top 6} and the westernised countries investigated, there remains a very high success rate of terrorist attacks despite fluctuations in the number of attacks as a whole.

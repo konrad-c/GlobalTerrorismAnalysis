@@ -19,9 +19,9 @@
 \contentsline {section}{\numberline {6}Discussion}{15}
 \contentsline {subsection}{\numberline {6.1}Terrorism coverage in United States news data}{15}
 \contentsline {subsection}{\numberline {6.2}Methods of Attack}{16}
-\contentsline {subsection}{\numberline {6.3}Terrorism trends over time}{17}
+\contentsline {subsection}{\numberline {6.3}Terrorism trends over time}{16}
 \contentsline {subsection}{\numberline {6.4}Rates of success in terrorist attacks}{17}
 \contentsline {subsubsection}{\numberline {6.4.1}Westernised Countries}{17}
 \contentsline {subsubsection}{\numberline {6.4.2}Top 6 Countries with respect to deaths from terrorist attacks}{18}
 \contentsline {subsubsection}{\numberline {6.4.3}Conclusion}{19}
-\contentsline {section}{\numberline {7}Further Work}{20}
+\contentsline {section}{\numberline {7}Further Work}{19}
