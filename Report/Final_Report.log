@@ -1,20 +1,16 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.13)  13 JUN 2017 16:55
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  13 JUN 2017 21:17
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.16)  15 JUN 2017 12:31
 entering extended mode
 **./Final_Report.tex
 (Final_Report.tex
-LaTeX2e <2017-04-15>
-<<<<<<< Updated upstream
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-=======
+LaTeX2e <2016/03/31> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
->>>>>>> Stashed changes
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.c
+ls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.cl
+o"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -29,20 +25,21 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.
+sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu
+"
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -254,8 +251,6 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -276,14 +271,13 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.df
+u"
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -323,8 +317,9 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.df
+u"
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -347,41 +342,47 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmat
+h.sty"
+Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstex
+t.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen
+.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy
+.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn
+.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count88
 \leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count90
 \DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -402,147 +403,184 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfo
+nts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.st
+y"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssy
+mb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+icx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
+l.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks23
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+ics.sty"
+Package: graphics 2016/06/02 v1.0s Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
+sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdf
+tex.def"
+File: pdftex.def 2016/06/17 v0.06h Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
+warerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
+cmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count99
+\Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrextend.sty"
-Package: scrextend 2017/04/13 v3.23 KOMA-Script package (extend other classes w
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\sc
+rextend.sty"
+Package: scrextend 2016/06/14 v3.21 KOMA-Script package (extend other classes w
 ith features of KOMA-Script classes)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
-Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\sc
+rkbase.sty"
+Package: scrkbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
-Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\sc
+rbase.sty"
+Package: scrbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
-Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\sc
+rlfile.sty"
+Package: scrlfile 2016/06/14 v3.21 KOMA-Script package (loading files)
 
-Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 )))
-LaTeX Info: Redefining \textsubscript on input line 1298.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+LaTeX Info: Redefining \textsubscript on input line 1293.
+)
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfi
+g.sty"
 \wrapoverhang=\dimen114
 \WF@size=\dimen115
-\c@WF@wrappedlines=\count100
-\WF@box=\box28
-\WF@everypar=\toks22
+\c@WF@wrappedlines=\count101
+\WF@box=\box30
+\WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumi
+tem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip46
 \enit@outerparindent=\dimen116
-\enit@toks=\toks23
-\enit@inbox=\box29
-\enitdp@description=\count101
-)
-(Final_Report.aux)
+\enit@toks=\toks25
+\enit@inbox=\box31
+\enitdp@description=\count102
+) (Final_Report.aux)
 \openout1 = `Final_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pd
+f.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
+\scratchcounter=\count103
 \scratchdimen=\dimen117
-\scratchbox=\box30
-\nofMPsegments=\count103
-\nofMParguments=\count104
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count105
+\scratchbox=\box32
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count106
 \MPscratchDim=\dimen118
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks25
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks27
+)
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdf
+texcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifl
+uatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifp
+df.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
+pdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfex
+t.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvd
+efinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
+ions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvs
+etkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ete
+xcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -555,237 +593,238 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
-<monash-university-logo.png, id=1, 401.5pt x 401.5pt>
+) <monash-university-logo.png, id=1, 401.5pt x 401.5pt>
 File: monash-university-logo.png Graphic file (type png)
 
 <use monash-university-logo.png>
-Package pdftex.def Info: monash-university-logo.png used on input line 41.
+Package pdftex.def Info: monash-university-logo.png used on input line 42.
 (pdftex.def)             Requested size: 137.9979pt x 137.9969pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./monash-university-logo.
-png>] (Final_Report.toc
+{C:/Users/kocyb_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./monas
+h-university-logo.png>] (Final_Report.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.
+fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.
+fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
 \openout3 = `Final_Report.toc'.
 
  [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 <backgroundpic1.png, id=25, 403.5075pt x 201.00093pt>
 File: backgroundpic1.png Graphic file (type png)
  <use backgroundpic1.png>
-Package pdftex.def Info: backgroundpic1.png used on input line 119.
+Package pdftex.def Info: backgroundpic1.png used on input line 120.
 (pdftex.def)             Requested size: 310.4979pt x 154.66997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
@@ -793,48 +832,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--130
 File: backgroundpic2.png Graphic file (type png)
 
 <use backgroundpic2.png>
-Package pdftex.def Info: backgroundpic2.png used on input line 131.
+Package pdftex.def Info: backgroundpic2.png used on input line 132.
 (pdftex.def)             Requested size: 310.4979pt x 198.39407pt.
  [6 <./backgroundpic1.png> <./backgroundpic2.png>]
-Overfull \hbox (6.82002pt too wide) in paragraph at lines 139--141
+Overfull \hbox (6.82002pt too wide) in paragraph at lines 140--142
 \OT1/cmr/m/n/10 The database used in this in-ves-ti-ga-tion comes from the Glob
 al Ter-ror-ism Database
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 151.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 152.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd
+"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
-
-<Plots/Top25countriesbydeaths.png, id=34, 775.39688pt x 431.36156pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
+ <Plots/Top25countriesbydeaths.png, id=34, 775.39688pt x 431.36156pt>
 File: Plots/Top25countriesbydeaths.png Graphic file (type png)
 
 <use Plots/Top25countriesbydeaths.png>
 Package pdftex.def Info: Plots/Top25countriesbydeaths.png used on input line 16
-1.
+2.
 (pdftex.def)             Requested size: 276.00105pt x 153.54579pt.
  [7]
 <Plots/NewsData/ArticlesByMonth.png, id=40, 668.4975pt x 524.71031pt>
@@ -842,7 +881,7 @@ File: Plots/NewsData/ArticlesByMonth.png Graphic file (type png)
 
 <use Plots/NewsData/ArticlesByMonth.png>
 Package pdftex.def Info: Plots/NewsData/ArticlesByMonth.png used on input line 
-173.
+174.
 (pdftex.def)             Requested size: 276.00105pt x 216.63782pt.
 
 <Plots/NewsData/ArticlesByYear.png, id=41, 668.4975pt x 524.71031pt>
@@ -850,462 +889,286 @@ File: Plots/NewsData/ArticlesByYear.png Graphic file (type png)
 
 <use Plots/NewsData/ArticlesByYear.png>
 Package pdftex.def Info: Plots/NewsData/ArticlesByYear.png used on input line 1
-80.
+81.
 (pdftex.def)             Requested size: 276.00105pt x 216.63782pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <Plots/NewsData/AttackNewsData.png, id=42, 714.41907pt x 569.12625pt>
 File: Plots/NewsData/AttackNewsData.png Graphic file (type png)
 
 <use Plots/NewsData/AttackNewsData.png>
 Package pdftex.def Info: Plots/NewsData/AttackNewsData.png used on input line 1
-88.
+89.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 <./Plots/Top25countriesbydeaths.png> <./Plots/NewsData/ArticlesByMonth.png>]
-<Plots/AttackType/Attacks.png, id=48, 714.41907pt x 569.12625pt>
+ [8 <./Plots/Top25countriesbydeaths.png> <./Plots/NewsData/ArticlesByMonth.png>
+] [9 <./Plots/NewsData/ArticlesByYear.png> <./Plots/NewsData/AttackNewsData.png
+>]
+<Plots/AttackType/Attacks.png, id=53, 714.41907pt x 569.12625pt>
 File: Plots/AttackType/Attacks.png Graphic file (type png)
 
 <use Plots/AttackType/Attacks.png>
-Package pdftex.def Info: Plots/AttackType/Attacks.png used on input line 200.
+Package pdftex.def Info: Plots/AttackType/Attacks.png used on input line 201.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Plots/AttackType/AttackTypeWesternCountries.png, id=49, 714.41907pt x 569.1262
+<Plots/AttackType/AttackTypeWesternCountries.png, id=54, 714.41907pt x 569.1262
 5pt>
 File: Plots/AttackType/AttackTypeWesternCountries.png Graphic file (type png)
  <use Plots/AttackType/AttackTypeWesternCountries.png>
 Package pdftex.def Info: Plots/AttackType/AttackTypeWesternCountries.png used o
-n input line 207.
+n input line 208.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Plots/AttackType/Deaths.png, id=50, 714.41907pt x 637.63219pt>
+<Plots/AttackType/Deaths.png, id=55, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Deaths.png Graphic file (type png)
 
 <use Plots/AttackType/Deaths.png>
-Package pdftex.def Info: Plots/AttackType/Deaths.png used on input line 215.
+Package pdftex.def Info: Plots/AttackType/Deaths.png used on input line 216.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Plots/AttackType/Global.png, id=51, 714.41907pt x 637.63219pt>
+<Plots/AttackType/Global.png, id=56, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Global.png Graphic file (type png)
 
 <use Plots/AttackType/Global.png>
-Package pdftex.def Info: Plots/AttackType/Global.png used on input line 223.
+Package pdftex.def Info: Plots/AttackType/Global.png used on input line 224.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Plots/AttackType/Top6.png, id=52, 714.41907pt x 637.63219pt>
+ [10 <./Plots/AttackType/Attacks.png> <./Plots/AttackType/AttackTypeWesternCoun
+tries.png>]
+<Plots/AttackType/Top6.png, id=62, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Top6.png Graphic file (type png)
 
 <use Plots/AttackType/Top6.png>
-Package pdftex.def Info: Plots/AttackType/Top6.png used on input line 231.
+Package pdftex.def Info: Plots/AttackType/Top6.png used on input line 232.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
+ [11 <./Plots/AttackType/Deaths.png> <./Plots/AttackType/Global.png>]
+<Plots/OverTime/Attacks_over_time_grouped_by_deaths.png, id=68, 775.39688pt x 4
+31.36156pt>
+File: Plots/OverTime/Attacks_over_time_grouped_by_deaths.png Graphic file (type
+ png)
+ <use Plots/OverTime/Attacks_over_time_grouped_by_deaths.png>
+Package pdftex.def Info: Plots/OverTime/Attacks_over_time_grouped_by_deaths.png
+ used on input line 242.
+(pdftex.def)             Requested size: 276.00105pt x 153.54579pt.
 
+<Plots/OverTime/Successes_vs_Attempts_by_Year.png, id=69, 633.86812pt x 431.361
+56pt>
+File: Plots/OverTime/Successes_vs_Attempts_by_Year.png Graphic file (type png)
+ <use Plots/OverTime/Successes_vs_Attempts_by_Year.png>
+Package pdftex.def Info: Plots/OverTime/Successes_vs_Attempts_by_Year.png used 
+on input line 252.
+(pdftex.def)             Requested size: 276.00105pt x 187.83163pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: File `Plots/OverTime/Attacks_over_time_grouped_by_deaths.png' no
-t found on input line 241.
-
-
-! Package pdftex.def Error: File `Plots/OverTime/Attacks_over_time_grouped_by_d
-eaths.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 .../Attacks_over_time_grouped_by_deaths.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9 <./Plots/NewsData/ArticlesByYear.png> <./Plots/NewsData/AttackNewsData.png>]
-
-LaTeX Warning: File `Plots/OverTime/Successes_vs_Attempts_by_Year.png' not foun
-d on input line 252.
-
-
-! Package pdftex.def Error: File `Plots/OverTime/Successes_vs_Attempts_by_Year.
-png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 ...erTime/Successes_vs_Attempts_by_Year.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Plots/OverTime/Top6ProportionSuccessAttempts.png, id=58, 1193.20781pt x 632.36
-25pt>
-File: Plots/OverTime/Top6ProportionSuccessAttempts.png Graphic file (type png)
- <use Plots/OverTime/Top6ProportionSuccessAttempts.png>
-Package pdftex.def Info: Plots/OverTime/Top6ProportionSuccessAttempts.png used 
-on input line 259.
-(pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Plots/OverTime/Top6SuccessVsAttempts.png, id=59, 1193.20781pt x 632.3625pt>
+<Plots/OverTime/Top6SuccessVsAttempts.png, id=70, 1193.20781pt x 632.3625pt>
 File: Plots/OverTime/Top6SuccessVsAttempts.png Graphic file (type png)
 
 <use Plots/OverTime/Top6SuccessVsAttempts.png>
 Package pdftex.def Info: Plots/OverTime/Top6SuccessVsAttempts.png used on input
- line 266.
+ line 257.
 (pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Plots/OverTime/WesternProportionSuccessAttempts.png, id=60, 1193.20781pt x 632
-.3625pt>
-File: Plots/OverTime/WesternProportionSuccessAttempts.png Graphic file (type pn
-g)
- <use Plots/OverTime/WesternProportionSuccessAttempts.png>
-Package pdftex.def Info: Plots/OverTime/WesternProportionSuccessAttempts.png us
-ed on input line 273.
-(pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Plots/OverTime/WesternSuccessVsAttempts.png, id=61, 1193.20781pt x 632.3625pt>
+ [12 <./Plots/AttackType/Top6.png> <./Plots/OverTime/Attacks_over_time_grouped_
+by_deaths.png (PNG copy)>]
+<Plots/OverTime/WesternSuccessVsAttempts.png, id=76, 1193.20781pt x 632.3625pt>
 File: Plots/OverTime/WesternSuccessVsAttempts.png Graphic file (type png)
 <use Plots/OverTime/WesternSuccessVsAttempts.png>
 Package pdftex.def Info: Plots/OverTime/WesternSuccessVsAttempts.png used on in
-put line 280.
+put line 262.
 (pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
+ [13 <./Plots/OverTime/Successes_vs_Attempts_by_Year.png> <./Plots/OverTime/Top
+6SuccessVsAttempts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
+Underfull \hbox (badness 10000) in paragraph at lines 271--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
-
- []
-
-[10 <./Plots/AttackType/Attacks.png> <./Plots/AttackType/AttackTypeWesternCount
-ries.png>]
-Overfull \vbox (32.91145pt too high) has occurred while \output is active []
-
-
-[11 <./Plots/AttackType/Deaths.png> <./Plots/AttackType/Global.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--304
+Underfull \hbox (badness 10000) in paragraph at lines 271--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--304
+Underfull \hbox (badness 10000) in paragraph at lines 278--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--304
-
- []
-
-<<<<<<< Updated upstream
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 191--202
+Underfull \hbox (badness 10000) in paragraph at lines 278--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--202
+Underfull \hbox (badness 10000) in paragraph at lines 278--284
+
+ []
+
+[14 <./Plots/OverTime/WesternSuccessVsAttempts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 300--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--202
+Underfull \hbox (badness 10000) in paragraph at lines 300--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--202
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 300--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 300--311
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 313--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 313--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 313--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 313--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
-=======
-[12 <./Plots/AttackType/Top6.png>] [13] [14 <./Plots/OverTime/Top6ProportionSuc
-cessAttempts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 314--322
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 313--339
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 314--322
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 313--339
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 313--339
 
  []
 
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 314--322
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--339
 
  []
 
-[15 <./Plots/OverTime/Top6SuccessVsAttempts.png> <./Plots/OverTime/WesternPropo
-rtionSuccessAttempts.png>] [16 <./Plots/OverTime/WesternSuccessVsAttempts.png>]
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
->>>>>>> Stashed changes
+[16] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 []\OT1/cmr/m/n/10 Cornell Law. (n.d.). 18 U.S Code. Re-trieved from
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 262--264
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 348--350
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 373--375
 []\OT1/cmr/m/n/10 FBI. (2002). Ter-ror-ism 2002 - 2005. Re-trieved from
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
 []\OT1/cmr/m/n/10 FEMA. (2013, July 25). Ter-ror-ism. Re-trieved from FEMA.gov:
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
 \OT1/cmr/m/n/10 https://www.fema.gov/media-library-data/20130726-1549-20490-
  []
 
 
-<<<<<<< Updated upstream
-Overfull \hbox (1.94528pt too wide) in paragraph at lines 273--275
-=======
-Overfull \hbox (1.94528pt too wide) in paragraph at lines 359--361
->>>>>>> Stashed changes
+Overfull \hbox (1.94528pt too wide) in paragraph at lines 384--386
 \OT1/cmr/m/n/10 http://www.terrorismanalysts.com/pt/index.php/pot/article/view/
 89/html 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
 []\OT1/cmr/m/n/10 LaFree, G., & Dugan, L. (2004). How does study-ing ter-
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
 \OT1/cmr/m/n/10 ror-ism com-pare to study-ing crime? Re-trieved from Ter-ror-
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 7522) in paragraph at lines 277--279
-=======
-Underfull \hbox (badness 7522) in paragraph at lines 363--365
->>>>>>> Stashed changes
+Underfull \hbox (badness 7522) in paragraph at lines 388--390
 \OT1/cmr/m/n/10 ism and Counter-Terrorism (So-ci-ol-ogy of Crime, Law and De-
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 1571) in paragraph at lines 277--279
-=======
-Underfull \hbox (badness 1571) in paragraph at lines 363--365
->>>>>>> Stashed changes
+Underfull \hbox (badness 1571) in paragraph at lines 388--390
 \OT1/cmr/m/n/10 viance, Vol-ume 5) Emer-ald Group Pub-lish-ing Lim-ited, pp.53 
 - 74:
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 5147) in paragraph at lines 281--283
-=======
-Underfull \hbox (badness 5147) in paragraph at lines 367--369
->>>>>>> Stashed changes
+Underfull \hbox (badness 5147) in paragraph at lines 392--394
 []\OT1/cmr/m/n/10 Lafree, G., & Dugan, L. (2007). In-tro-duc-ing the Global Ter
 -
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 3557) in paragraph at lines 281--283
-=======
-Underfull \hbox (badness 3557) in paragraph at lines 367--369
->>>>>>> Stashed changes
+Underfull \hbox (badness 3557) in paragraph at lines 392--394
 \OT1/cmr/m/n/10 ror-ism Database. Re-trieved from Ter-ror-ism and Po-lit-i-cal 
 Vi-o-lence:
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 3108) in paragraph at lines 285--287
-=======
-Underfull \hbox (badness 3108) in paragraph at lines 371--373
->>>>>>> Stashed changes
+Underfull \hbox (badness 3108) in paragraph at lines 396--398
 []\OT1/cmr/m/n/10 LaFree, G., Dugan, L., & Scott, J. (2006). Build-ing a Global
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 371--373
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
 \OT1/cmr/m/n/10 ter-ror-ism Database. Re-trieved from Uni-ver-sity of Mary-land
 :
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 6268) in paragraph at lines 300--302
-=======
-Underfull \hbox (badness 6268) in paragraph at lines 386--388
->>>>>>> Stashed changes
+Underfull \hbox (badness 6268) in paragraph at lines 411--413
 []\OT1/cmr/m/n/10 Desilver, D. (2013). \OT1/cmr/m/it/10 U.S. spends over \OT1/c
 mr/m/sl/10 $\OT1/cmr/m/it/10 16 bil-lion an-nu-ally on
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 411--413
 \OT1/cmr/m/it/10 counter-terrorism\OT1/cmr/m/n/10 . Re-trieved from http://www.
 pewresearch.org/fact-
  []
 
-<<<<<<< Updated upstream
-[12] [13] (Final_Report.aux) ) 
+[19] [20] (Final_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 3757 strings out of 493323
- 51895 string characters out of 3139051
- 139569 words of memory out of 3000000
- 7231 multiletter control sequences out of 15000+200000
+ 3870 strings out of 493335
+ 57238 string characters out of 3128498
+ 141458 words of memory out of 3000000
+ 7314 multiletter control sequences out of 15000+200000
  8162 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,4n,39p,965b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
-=======
-[17] [18] (Final_Report.aux) ) 
-Here is how much of TeX's memory you used:
- 3831 strings out of 493328
- 54430 string characters out of 3139124
- 138330 words of memory out of 3000000
- 7280 multiletter control sequences out of 15000+200000
- 8330 words of font info for 32 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 48i,5n,39p,965b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
->>>>>>> Stashed changes
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
-<<<<<<< Updated upstream
-fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Final_Report.pdf (14 pages, 184204 bytes).
+ 49i,5n,39p,963b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kocyb_000/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kocyb
+_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/kocyb_000/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/kocyb_000/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ko
+cyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
+.pfb>
+Output written on Final_Report.pdf (21 pages, 409956 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
-=======
-fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Final_Report.pdf (19 pages, 432554 bytes).
-PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
->>>>>>> Stashed changes
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

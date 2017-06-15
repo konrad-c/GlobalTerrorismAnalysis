@@ -13,28 +13,15 @@
 \contentsline {subsection}{\numberline {4.2}Analysis}{7}
 \contentsline {section}{\numberline {5}Results}{7}
 \contentsline {subsection}{\numberline {5.1}Terrorism coverage in the United States news data}{8}
-<<<<<<< Updated upstream
-\contentsline {subsection}{\numberline {5.2}Method of Attack}{8}
-\contentsline {subsection}{\numberline {5.3}Terrorism trends over time}{8}
-\contentsline {subsection}{\numberline {5.4}Rates of success in terrorist attacks}{8}
-\contentsline {section}{\numberline {6}Discussion}{8}
-\contentsline {subsection}{\numberline {6.1}Terrorism coverage in United States news data}{8}
-\contentsline {subsection}{\numberline {6.2}Methods of Attack}{8}
-\contentsline {subsection}{\numberline {6.3}Terrorism trends over time}{9}
-\contentsline {subsection}{\numberline {6.4}Rates of success in terrorist attacks}{9}
-\contentsline {subsubsection}{\numberline {6.4.1}Westernized Countries}{9}
-\contentsline {subsubsection}{\numberline {6.4.2}Top 6 Countries with respect to deaths from terrorist attacks}{10}
-\contentsline {subsubsection}{\numberline {6.4.3}Conclusions}{11}
-\contentsline {section}{\numberline {7}Conclusion}{11}
-=======
-\contentsline {subsection}{\numberline {5.2}Method of Attack}{9}
-\contentsline {subsection}{\numberline {5.3}Terrorism trends over time}{10}
-\contentsline {subsection}{\numberline {5.4}Rates of success in terrorist attacks}{10}
-\contentsline {section}{\numberline {6}Discussion}{11}
-\contentsline {subsection}{\numberline {6.1}Terrorism coverage in United States news data}{11}
-\contentsline {subsection}{\numberline {6.2}Methods of Attack}{12}
-\contentsline {subsection}{\numberline {6.3}Terrorism trends over time}{14}
-\contentsline {subsection}{\numberline {6.4}Rates of success in terrorist attacks}{14}
+\contentsline {subsection}{\numberline {5.2}Method of Attack}{10}
+\contentsline {subsection}{\numberline {5.3}Terrorism trends over time}{12}
+\contentsline {subsection}{\numberline {5.4}Rates of success in terrorist attacks}{13}
+\contentsline {section}{\numberline {6}Discussion}{14}
+\contentsline {subsection}{\numberline {6.1}Terrorism coverage in United States news data}{14}
+\contentsline {subsection}{\numberline {6.2}Methods of Attack}{14}
+\contentsline {subsection}{\numberline {6.3}Terrorism trends over time}{15}
+\contentsline {subsection}{\numberline {6.4}Rates of success in terrorist attacks}{15}
 \contentsline {subsubsection}{\numberline {6.4.1}Westernized Countries}{15}
-\contentsline {section}{\numberline {7}Conclusion}{16}
->>>>>>> Stashed changes
+\contentsline {subsubsection}{\numberline {6.4.2}Top 6 Countries with respect to deaths from terrorist attacks}{16}
+\contentsline {subsubsection}{\numberline {6.4.3}Conclusions}{17}
+\contentsline {section}{\numberline {7}Conclusion}{18}
