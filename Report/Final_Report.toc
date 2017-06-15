@@ -20,8 +20,8 @@
 \contentsline {subsection}{\numberline {6.1}Terrorism coverage in United States news data}{14}
 \contentsline {subsection}{\numberline {6.2}Methods of Attack}{14}
 \contentsline {subsection}{\numberline {6.3}Terrorism trends over time}{15}
-\contentsline {subsection}{\numberline {6.4}Rates of success in terrorist attacks}{15}
-\contentsline {subsubsection}{\numberline {6.4.1}Westernized Countries}{15}
-\contentsline {subsubsection}{\numberline {6.4.2}Top 6 Countries with respect to deaths from terrorist attacks}{16}
-\contentsline {subsubsection}{\numberline {6.4.3}Conclusions}{17}
-\contentsline {section}{\numberline {7}Conclusion}{18}
+\contentsline {subsection}{\numberline {6.4}Rates of success in terrorist attacks}{16}
+\contentsline {subsubsection}{\numberline {6.4.1}Westernized Countries}{16}
+\contentsline {subsubsection}{\numberline {6.4.2}Top 6 Countries with respect to deaths from terrorist attacks}{17}
+\contentsline {subsubsection}{\numberline {6.4.3}Conclusion}{18}
+\contentsline {section}{\numberline {7}Further Work}{18}

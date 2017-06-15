@@ -139,15 +139,16 @@ count <- 1
 year_vec <- vector(mode="numeric")
 death_vec <- vector(mode="numeric")
 attack_vec <- vector(mode="numeric")
-for(year in unique(sf$iyear)){
-  year_vec[[count]] <- year
-  death_set <- subset(reduced_sf, sub_years == year)
+date_vec <- list()#vector(mode="numeric")
+for(date in unique(sub_date)){
+  #date_vec[[count]] <- as.Date(as.character(as.POSIXct(strptime(date, format="%d/%m/%Y %H:%M:%S"))))
+  death_set <- subset(reduced_sf, sub_date == date)
   death_vec[[count]] <- round(sum(death_set$sub_deaths))
   attack_vec[[count]] <- nrow(death_set)
   count <- count+1
 }
 us_sf <- data.frame(
-  Year=year_vec,
+  Date=unique(sub_date),#unlist(date_vec),
   Deaths=death_vec,
   Attacks=attack_vec
   #TerrorArticles=sf_news[sf_news$ArticleType=="Terror Article", ]$NumArticles[1:45]
