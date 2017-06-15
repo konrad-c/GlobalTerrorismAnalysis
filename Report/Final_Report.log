@@ -1,17 +1,9 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.13)  13 JUN 2017 16:55
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  13 JUN 2017 21:17
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  13 JUN 2017 21:36
 entering extended mode
 **./Final_Report.tex
 (Final_Report.tex
 LaTeX2e <2017-04-15>
-<<<<<<< Updated upstream
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-=======
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
->>>>>>> Stashed changes
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -720,27 +712,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--113
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
@@ -750,543 +732,430 @@ File: backgroundpic1.png Graphic file (type png)
 Package pdftex.def Info: backgroundpic1.png used on input line 119.
 (pdftex.def)             Requested size: 310.4979pt x 154.66997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
-
- []
-
-<backgroundpic2.png, id=29, 344.03531pt x 219.82124pt>
+[5] <backgroundpic2.png, id=29, 344.03531pt x 219.82124pt>
 File: backgroundpic2.png Graphic file (type png)
 
 <use backgroundpic2.png>
-Package pdftex.def Info: backgroundpic2.png used on input line 131.
+Package pdftex.def Info: backgroundpic2.png used on input line 132.
 (pdftex.def)             Requested size: 310.4979pt x 198.39407pt.
- [6 <./backgroundpic1.png> <./backgroundpic2.png>]
-Overfull \hbox (6.82002pt too wide) in paragraph at lines 139--141
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./backgroundpic1.png>]
+Overfull \hbox (6.82002pt too wide) in paragraph at lines 145--147
 \OT1/cmr/m/n/10 The database used in this in-ves-ti-ga-tion comes from the Glob
 al Ter-ror-ism Database
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--146
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+[7 <./backgroundpic2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 151.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
 
-<Plots/Top25countriesbydeaths.png, id=34, 775.39688pt x 431.36156pt>
+<Plots/Top25countriesbydeaths.png, id=37, 775.39688pt x 431.36156pt>
 File: Plots/Top25countriesbydeaths.png Graphic file (type png)
 
 <use Plots/Top25countriesbydeaths.png>
 Package pdftex.def Info: Plots/Top25countriesbydeaths.png used on input line 16
-1.
-(pdftex.def)             Requested size: 276.00105pt x 153.54579pt.
- [7]
-<Plots/NewsData/ArticlesByMonth.png, id=40, 668.4975pt x 524.71031pt>
+7.
+(pdftex.def)             Requested size: 345.0pt x 191.92566pt.
+
+<Plots/NewsData/ArticlesByMonth.png, id=38, 668.4975pt x 524.71031pt>
 File: Plots/NewsData/ArticlesByMonth.png Graphic file (type png)
 
 <use Plots/NewsData/ArticlesByMonth.png>
 Package pdftex.def Info: Plots/NewsData/ArticlesByMonth.png used on input line 
-173.
+179.
 (pdftex.def)             Requested size: 276.00105pt x 216.63782pt.
 
-<Plots/NewsData/ArticlesByYear.png, id=41, 668.4975pt x 524.71031pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/NewsData/ArticlesByYear.png, id=39, 668.4975pt x 524.71031pt>
 File: Plots/NewsData/ArticlesByYear.png Graphic file (type png)
 
 <use Plots/NewsData/ArticlesByYear.png>
 Package pdftex.def Info: Plots/NewsData/ArticlesByYear.png used on input line 1
-80.
+86.
 (pdftex.def)             Requested size: 276.00105pt x 216.63782pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/NewsData/AttackNewsData.png, id=42, 714.41907pt x 569.12625pt>
+<Plots/NewsData/AttackNewsData.png, id=40, 714.41907pt x 569.12625pt>
 File: Plots/NewsData/AttackNewsData.png Graphic file (type png)
 
 <use Plots/NewsData/AttackNewsData.png>
 Package pdftex.def Info: Plots/NewsData/AttackNewsData.png used on input line 1
-88.
+94.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./Plots/Top25countriesbydeaths.png> <./Plots/NewsData/ArticlesByMonth.png>]
-<Plots/AttackType/Attacks.png, id=48, 714.41907pt x 569.12625pt>
+[8 <./Plots/Top25countriesbydeaths.png>]
+<Plots/AttackType/Attacks.png, id=47, 714.41907pt x 569.12625pt>
 File: Plots/AttackType/Attacks.png Graphic file (type png)
 
 <use Plots/AttackType/Attacks.png>
-Package pdftex.def Info: Plots/AttackType/Attacks.png used on input line 200.
+Package pdftex.def Info: Plots/AttackType/Attacks.png used on input line 206.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Plots/AttackType/AttackTypeWesternCountries.png, id=49, 714.41907pt x 569.1262
+<Plots/AttackType/AttackTypeWesternCountries.png, id=48, 714.41907pt x 569.1262
 5pt>
 File: Plots/AttackType/AttackTypeWesternCountries.png Graphic file (type png)
  <use Plots/AttackType/AttackTypeWesternCountries.png>
 Package pdftex.def Info: Plots/AttackType/AttackTypeWesternCountries.png used o
-n input line 207.
+n input line 213.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/AttackType/Deaths.png, id=50, 714.41907pt x 637.63219pt>
+<Plots/AttackType/Deaths.png, id=49, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Deaths.png Graphic file (type png)
 
 <use Plots/AttackType/Deaths.png>
-Package pdftex.def Info: Plots/AttackType/Deaths.png used on input line 215.
+Package pdftex.def Info: Plots/AttackType/Deaths.png used on input line 221.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/AttackType/Global.png, id=51, 714.41907pt x 637.63219pt>
+<Plots/AttackType/Global.png, id=50, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Global.png Graphic file (type png)
 
 <use Plots/AttackType/Global.png>
-Package pdftex.def Info: Plots/AttackType/Global.png used on input line 223.
+Package pdftex.def Info: Plots/AttackType/Global.png used on input line 229.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/AttackType/Top6.png, id=52, 714.41907pt x 637.63219pt>
+<Plots/AttackType/Top6.png, id=51, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Top6.png Graphic file (type png)
 
 <use Plots/AttackType/Top6.png>
-Package pdftex.def Info: Plots/AttackType/Top6.png used on input line 231.
+Package pdftex.def Info: Plots/AttackType/Top6.png used on input line 237.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: File `Plots/OverTime/Attacks_over_time_grouped_by_deaths.png' no
-t found on input line 241.
-
-
-! Package pdftex.def Error: File `Plots/OverTime/Attacks_over_time_grouped_by_d
-eaths.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 .../Attacks_over_time_grouped_by_deaths.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9 <./Plots/NewsData/ArticlesByYear.png> <./Plots/NewsData/AttackNewsData.png>]
-
-LaTeX Warning: File `Plots/OverTime/Successes_vs_Attempts_by_Year.png' not foun
-d on input line 252.
-
-
-! Package pdftex.def Error: File `Plots/OverTime/Successes_vs_Attempts_by_Year.
-png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 ...erTime/Successes_vs_Attempts_by_Year.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<Plots/OverTime/Attacks_over_time_grouped_by_deaths.png, id=52, 775.39688pt x 4
+31.36156pt>
+File: Plots/OverTime/Attacks_over_time_grouped_by_deaths.png Graphic file (type
+ png)
+ <use Plots/OverTime/Attacks_over_time_grouped_by_deaths.png>
+Package pdftex.def Info: Plots/OverTime/Attacks_over_time_grouped_by_deaths.png
+ used on input line 247.
+(pdftex.def)             Requested size: 276.00105pt x 153.54579pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Plots/OverTime/Top6ProportionSuccessAttempts.png, id=58, 1193.20781pt x 632.36
+<Plots/OverTime/Successes_vs_Attempts_by_Year.png, id=53, 633.86812pt x 431.361
+56pt>
+File: Plots/OverTime/Successes_vs_Attempts_by_Year.png Graphic file (type png)
+ <use Plots/OverTime/Successes_vs_Attempts_by_Year.png>
+Package pdftex.def Info: Plots/OverTime/Successes_vs_Attempts_by_Year.png used 
+on input line 258.
+(pdftex.def)             Requested size: 276.00105pt x 187.83163pt.
+ [9 <./Plots/NewsData/ArticlesByMonth.png> <./Plots/NewsData/ArticlesByYear.png
+>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Plots/OverTime/Top6ProportionSuccessAttempts.png, id=59, 1193.20781pt x 632.36
 25pt>
 File: Plots/OverTime/Top6ProportionSuccessAttempts.png Graphic file (type png)
  <use Plots/OverTime/Top6ProportionSuccessAttempts.png>
 Package pdftex.def Info: Plots/OverTime/Top6ProportionSuccessAttempts.png used 
-on input line 259.
+on input line 265.
 (pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/OverTime/Top6SuccessVsAttempts.png, id=59, 1193.20781pt x 632.3625pt>
+<Plots/OverTime/Top6SuccessVsAttempts.png, id=60, 1193.20781pt x 632.3625pt>
 File: Plots/OverTime/Top6SuccessVsAttempts.png Graphic file (type png)
 
 <use Plots/OverTime/Top6SuccessVsAttempts.png>
 Package pdftex.def Info: Plots/OverTime/Top6SuccessVsAttempts.png used on input
- line 266.
+ line 272.
 (pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Plots/OverTime/WesternProportionSuccessAttempts.png, id=60, 1193.20781pt x 632
+<Plots/OverTime/WesternProportionSuccessAttempts.png, id=61, 1193.20781pt x 632
 .3625pt>
 File: Plots/OverTime/WesternProportionSuccessAttempts.png Graphic file (type pn
 g)
  <use Plots/OverTime/WesternProportionSuccessAttempts.png>
 Package pdftex.def Info: Plots/OverTime/WesternProportionSuccessAttempts.png us
-ed on input line 273.
+ed on input line 279.
 (pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Plots/OverTime/WesternSuccessVsAttempts.png, id=61, 1193.20781pt x 632.3625pt>
+<Plots/OverTime/WesternSuccessVsAttempts.png, id=62, 1193.20781pt x 632.3625pt>
 File: Plots/OverTime/WesternSuccessVsAttempts.png Graphic file (type png)
 <use Plots/OverTime/WesternSuccessVsAttempts.png>
 Package pdftex.def Info: Plots/OverTime/WesternSuccessVsAttempts.png used on in
-put line 280.
+put line 286.
 (pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
 
  []
 
-[10 <./Plots/AttackType/Attacks.png> <./Plots/AttackType/AttackTypeWesternCount
-ries.png>]
-Overfull \vbox (32.91145pt too high) has occurred while \output is active []
+[10 <./Plots/NewsData/AttackNewsData.png> <./Plots/AttackType/Attacks.png>]
+Overfull \vbox (6.44617pt too high) has occurred while \output is active []
 
 
-[11 <./Plots/AttackType/Deaths.png> <./Plots/AttackType/Global.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--304
+[11 <./Plots/AttackType/AttackTypeWesternCountries.png> <./Plots/AttackType/Dea
+ths.png>]
 
- []
+LaTeX Warning: Text page 12 contains only floats.
 
+[12 <./Plots/AttackType/Global.png> <./Plots/AttackType/Top6.png>] [13 <./Plots
+/OverTime/Attacks_over_time_grouped_by_deaths.png (PNG copy)> <./Plots/OverTime
+/Successes_vs_Attempts_by_Year.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--304
+LaTeX Warning: Text page 14 contains only floats.
 
- []
+[14 <./Plots/OverTime/Top6ProportionSuccessAttempts.png> <./Plots/OverTime/Top6
+SuccessVsAttempts.png> <./Plots/OverTime/WesternProportionSuccessAttempts.png>]
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--304
-
- []
-
-<<<<<<< Updated upstream
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 191--202
+Underfull \hbox (badness 10000) in paragraph at lines 304--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--202
+Underfull \hbox (badness 10000) in paragraph at lines 304--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--202
+Underfull \hbox (badness 10000) in paragraph at lines 304--310
+
+ []
+
+[15 <./Plots/OverTime/WesternSuccessVsAttempts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 320--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--202
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 320--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 320--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 320--331
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 333--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 333--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 333--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
-=======
-[12 <./Plots/AttackType/Top6.png>] [13] [14 <./Plots/OverTime/Top6ProportionSuc
-cessAttempts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 314--322
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 333--358
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 314--322
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 333--358
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 333--358
 
  []
 
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 314--322
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--358
 
  []
 
-[15 <./Plots/OverTime/Top6SuccessVsAttempts.png> <./Plots/OverTime/WesternPropo
-rtionSuccessAttempts.png>] [16 <./Plots/OverTime/WesternSuccessVsAttempts.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 333--358
+
+ []
+
+[17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 []\OT1/cmr/m/n/10 Cornell Law. (n.d.). 18 U.S Code. Re-trieved from
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 262--264
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 348--350
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
 []\OT1/cmr/m/n/10 FBI. (2002). Ter-ror-ism 2002 - 2005. Re-trieved from
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 395--397
 []\OT1/cmr/m/n/10 FEMA. (2013, July 25). Ter-ror-ism. Re-trieved from FEMA.gov:
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 395--397
 \OT1/cmr/m/n/10 https://www.fema.gov/media-library-data/20130726-1549-20490-
  []
 
 
-<<<<<<< Updated upstream
-Overfull \hbox (1.94528pt too wide) in paragraph at lines 273--275
-=======
-Overfull \hbox (1.94528pt too wide) in paragraph at lines 359--361
->>>>>>> Stashed changes
+Overfull \hbox (1.94528pt too wide) in paragraph at lines 402--404
 \OT1/cmr/m/n/10 http://www.terrorismanalysts.com/pt/index.php/pot/article/view/
 89/html 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 []\OT1/cmr/m/n/10 LaFree, G., & Dugan, L. (2004). How does study-ing ter-
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 \OT1/cmr/m/n/10 ror-ism com-pare to study-ing crime? Re-trieved from Ter-ror-
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 7522) in paragraph at lines 277--279
-=======
-Underfull \hbox (badness 7522) in paragraph at lines 363--365
->>>>>>> Stashed changes
+Underfull \hbox (badness 7522) in paragraph at lines 406--408
 \OT1/cmr/m/n/10 ism and Counter-Terrorism (So-ci-ol-ogy of Crime, Law and De-
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 1571) in paragraph at lines 277--279
-=======
-Underfull \hbox (badness 1571) in paragraph at lines 363--365
->>>>>>> Stashed changes
+Underfull \hbox (badness 1571) in paragraph at lines 406--408
 \OT1/cmr/m/n/10 viance, Vol-ume 5) Emer-ald Group Pub-lish-ing Lim-ited, pp.53 
 - 74:
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 5147) in paragraph at lines 281--283
-=======
-Underfull \hbox (badness 5147) in paragraph at lines 367--369
->>>>>>> Stashed changes
+Underfull \hbox (badness 5147) in paragraph at lines 410--412
 []\OT1/cmr/m/n/10 Lafree, G., & Dugan, L. (2007). In-tro-duc-ing the Global Ter
 -
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 3557) in paragraph at lines 281--283
-=======
-Underfull \hbox (badness 3557) in paragraph at lines 367--369
->>>>>>> Stashed changes
+Underfull \hbox (badness 3557) in paragraph at lines 410--412
 \OT1/cmr/m/n/10 ror-ism Database. Re-trieved from Ter-ror-ism and Po-lit-i-cal 
 Vi-o-lence:
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 3108) in paragraph at lines 285--287
-=======
-Underfull \hbox (badness 3108) in paragraph at lines 371--373
->>>>>>> Stashed changes
+Underfull \hbox (badness 3108) in paragraph at lines 414--416
 []\OT1/cmr/m/n/10 LaFree, G., Dugan, L., & Scott, J. (2006). Build-ing a Global
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 371--373
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
 \OT1/cmr/m/n/10 ter-ror-ism Database. Re-trieved from Uni-ver-sity of Mary-land
 :
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 6268) in paragraph at lines 300--302
-=======
-Underfull \hbox (badness 6268) in paragraph at lines 386--388
->>>>>>> Stashed changes
+Underfull \hbox (badness 6268) in paragraph at lines 429--431
 []\OT1/cmr/m/n/10 Desilver, D. (2013). \OT1/cmr/m/it/10 U.S. spends over \OT1/c
 mr/m/sl/10 $\OT1/cmr/m/it/10 16 bil-lion an-nu-ally on
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 429--431
 \OT1/cmr/m/it/10 counter-terrorism\OT1/cmr/m/n/10 . Re-trieved from http://www.
 pewresearch.org/fact-
  []
 
-<<<<<<< Updated upstream
-[12] [13] (Final_Report.aux) ) 
+[19] [20] (Final_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 3757 strings out of 493323
- 51895 string characters out of 3139051
- 139569 words of memory out of 3000000
- 7231 multiletter control sequences out of 15000+200000
+ 3837 strings out of 493328
+ 54863 string characters out of 3139124
+ 138330 words of memory out of 3000000
+ 7287 multiletter control sequences out of 15000+200000
  8162 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,4n,39p,965b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
-=======
-[17] [18] (Final_Report.aux) ) 
-Here is how much of TeX's memory you used:
- 3831 strings out of 493328
- 54430 string characters out of 3139124
- 138330 words of memory out of 3000000
- 7280 multiletter control sequences out of 15000+200000
- 8330 words of font info for 32 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 48i,5n,39p,965b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
->>>>>>> Stashed changes
+ 48i,5n,39p,965b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
@@ -1294,18 +1163,10 @@ cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
-<<<<<<< Updated upstream
 fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Final_Report.pdf (14 pages, 184204 bytes).
+Output written on Final_Report.pdf (21 pages, 452522 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
-=======
-fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Final_Report.pdf (19 pages, 432554 bytes).
-PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
->>>>>>> Stashed changes
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
