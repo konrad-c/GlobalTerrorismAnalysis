@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.16)  16 JUN 2017 09:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.16)  16 JUN 2017 11:09
 entering extended mode
 **./Final_Report.tex
 (Final_Report.tex
@@ -618,7 +618,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write3
 \openout3 = `Final_Report.toc'.
 
- [1] [2]
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -638,7 +648,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
@@ -659,12 +669,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
@@ -679,12 +689,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
@@ -709,449 +719,437 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
 <backgroundpic1.png, id=25, 403.5075pt x 201.00093pt>
 File: backgroundpic1.png Graphic file (type png)
  <use backgroundpic1.png>
-Package pdftex.def Info: backgroundpic1.png used on input line 120.
+Package pdftex.def Info: backgroundpic1.png used on input line 118.
 (pdftex.def)             Requested size: 310.4979pt x 154.66997pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
-[5] <backgroundpic2.png, id=29, 344.03531pt x 219.82124pt>
+[5 <./backgroundpic1.png>]
+<backgroundpic2.png, id=29, 344.03531pt x 219.82124pt>
 File: backgroundpic2.png Graphic file (type png)
 
 <use backgroundpic2.png>
-Package pdftex.def Info: backgroundpic2.png used on input line 133.
+Package pdftex.def Info: backgroundpic2.png used on input line 131.
 (pdftex.def)             Requested size: 310.4979pt x 198.39407pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./backgroundpic1.png>]
-Overfull \hbox (6.82002pt too wide) in paragraph at lines 146--148
+ [6 <./backgroundpic2.png>]
+Overfull \hbox (6.82002pt too wide) in paragraph at lines 144--146
 \OT1/cmr/m/n/10 The database used in this in-ves-ti-ga-tion comes from the Glob
 al Ter-ror-ism Database
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--153
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
 
-[7 <./backgroundpic2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
 
 ("C:\Users\kocyb_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd
 "
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
- <Plots/Top25countriesbydeaths.png, id=37, 775.39688pt x 431.36156pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+ <Plots/Top25countriesbydeaths.png, id=34, 775.39688pt x 431.36156pt>
 File: Plots/Top25countriesbydeaths.png Graphic file (type png)
 
 <use Plots/Top25countriesbydeaths.png>
 Package pdftex.def Info: Plots/Top25countriesbydeaths.png used on input line 16
-7.
+5.
 (pdftex.def)             Requested size: 276.00105pt x 153.54579pt.
-
-<Plots/NewsData/ArticlesByMonth.png, id=38, 668.4975pt x 524.71031pt>
+ [7]
+<Plots/NewsData/ArticlesByMonth.png, id=40, 668.4975pt x 524.71031pt>
 File: Plots/NewsData/ArticlesByMonth.png Graphic file (type png)
 
 <use Plots/NewsData/ArticlesByMonth.png>
 Package pdftex.def Info: Plots/NewsData/ArticlesByMonth.png used on input line 
-177.
+175.
 (pdftex.def)             Requested size: 276.00105pt x 216.63782pt.
 
-<Plots/NewsData/ArticlesByYear.png, id=39, 668.4975pt x 524.71031pt>
+<Plots/NewsData/ArticlesByYear.png, id=41, 668.4975pt x 524.71031pt>
 File: Plots/NewsData/ArticlesByYear.png Graphic file (type png)
 
 <use Plots/NewsData/ArticlesByYear.png>
 Package pdftex.def Info: Plots/NewsData/ArticlesByYear.png used on input line 1
-82.
+80.
 (pdftex.def)             Requested size: 276.00105pt x 216.63782pt.
- [8 <./Plots/Top25countriesbydeaths.png>] <Plots/NewsData/AttackNewsData.png, i
-d=46, 714.41907pt x 569.12625pt>
+
+<Plots/NewsData/AttackNewsData.png, id=42, 714.41907pt x 569.12625pt>
 File: Plots/NewsData/AttackNewsData.png Graphic file (type png)
 
 <use Plots/NewsData/AttackNewsData.png>
 Package pdftex.def Info: Plots/NewsData/AttackNewsData.png used on input line 1
-88.
+86.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
- [9 <./Plots/NewsData/ArticlesByMonth.png>] [10 <./Plots/NewsData/ArticlesByYea
-r.png> <./Plots/NewsData/AttackNewsData.png>] <Plots/AttackType/Attacks.png, id
-=56, 714.41907pt x 569.12625pt>
+ [8 <./Plots/Top25countriesbydeaths.png> <./Plots/NewsData/ArticlesByMonth.png>
+] [9 <./Plots/NewsData/ArticlesByYear.png> <./Plots/NewsData/AttackNewsData.png
+>]
+<Plots/AttackType/Attacks.png, id=53, 714.41907pt x 569.12625pt>
 File: Plots/AttackType/Attacks.png Graphic file (type png)
 
 <use Plots/AttackType/Attacks.png>
-Package pdftex.def Info: Plots/AttackType/Attacks.png used on input line 199.
+Package pdftex.def Info: Plots/AttackType/Attacks.png used on input line 197.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
 
-<Plots/AttackType/AttackTypeWesternCountries.png, id=57, 714.41907pt x 569.1262
+<Plots/AttackType/AttackTypeWesternCountries.png, id=54, 714.41907pt x 569.1262
 5pt>
 File: Plots/AttackType/AttackTypeWesternCountries.png Graphic file (type png)
  <use Plots/AttackType/AttackTypeWesternCountries.png>
 Package pdftex.def Info: Plots/AttackType/AttackTypeWesternCountries.png used o
-n input line 204.
+n input line 202.
 (pdftex.def)             Requested size: 276.00105pt x 219.86546pt.
 
-<Plots/AttackType/Deaths.png, id=58, 714.41907pt x 637.63219pt>
+<Plots/AttackType/Deaths.png, id=55, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Deaths.png Graphic file (type png)
 
 <use Plots/AttackType/Deaths.png>
-Package pdftex.def Info: Plots/AttackType/Deaths.png used on input line 209.
+Package pdftex.def Info: Plots/AttackType/Deaths.png used on input line 207.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
 
-<Plots/AttackType/Global.png, id=59, 714.41907pt x 637.63219pt>
+<Plots/AttackType/Global.png, id=56, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Global.png Graphic file (type png)
 
 <use Plots/AttackType/Global.png>
-Package pdftex.def Info: Plots/AttackType/Global.png used on input line 214.
+Package pdftex.def Info: Plots/AttackType/Global.png used on input line 212.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
- [11 <./Plots/AttackType/Attacks.png> <./Plots/AttackType/AttackTypeWesternCoun
+ [10 <./Plots/AttackType/Attacks.png> <./Plots/AttackType/AttackTypeWesternCoun
 tries.png>]
-<Plots/AttackType/Top6.png, id=65, 714.41907pt x 637.63219pt>
+<Plots/AttackType/Top6.png, id=62, 714.41907pt x 637.63219pt>
 File: Plots/AttackType/Top6.png Graphic file (type png)
 
 <use Plots/AttackType/Top6.png>
-Package pdftex.def Info: Plots/AttackType/Top6.png used on input line 219.
+Package pdftex.def Info: Plots/AttackType/Top6.png used on input line 217.
 (pdftex.def)             Requested size: 276.00105pt x 246.33075pt.
- [12 <./Plots/AttackType/Deaths.png> <./Plots/AttackType/Global.png>]
-<Plots/OverTime/Attacks_over_time_grouped_by_deaths.png, id=72, 775.39688pt x 4
+ [11 <./Plots/AttackType/Deaths.png> <./Plots/AttackType/Global.png>]
+<Plots/OverTime/Attacks_over_time_grouped_by_deaths.png, id=68, 775.39688pt x 4
 31.36156pt>
 File: Plots/OverTime/Attacks_over_time_grouped_by_deaths.png Graphic file (type
  png)
  <use Plots/OverTime/Attacks_over_time_grouped_by_deaths.png>
 Package pdftex.def Info: Plots/OverTime/Attacks_over_time_grouped_by_deaths.png
- used on input line 228.
+ used on input line 226.
 (pdftex.def)             Requested size: 276.00105pt x 153.54579pt.
 
-<Plots/OverTime/Successes_vs_Attempts_by_Year.png, id=73, 633.86812pt x 431.361
+<Plots/OverTime/Successes_vs_Attempts_by_Year.png, id=69, 633.86812pt x 431.361
 56pt>
 File: Plots/OverTime/Successes_vs_Attempts_by_Year.png Graphic file (type png)
  <use Plots/OverTime/Successes_vs_Attempts_by_Year.png>
 Package pdftex.def Info: Plots/OverTime/Successes_vs_Attempts_by_Year.png used 
-on input line 238.
+on input line 236.
 (pdftex.def)             Requested size: 276.00105pt x 187.83163pt.
 
-<Plots/OverTime/Top6SuccessVsAttempts.png, id=74, 1193.20781pt x 632.3625pt>
+<Plots/OverTime/Top6SuccessVsAttempts.png, id=70, 1193.20781pt x 632.3625pt>
 File: Plots/OverTime/Top6SuccessVsAttempts.png Graphic file (type png)
 
 <use Plots/OverTime/Top6SuccessVsAttempts.png>
 Package pdftex.def Info: Plots/OverTime/Top6SuccessVsAttempts.png used on input
- line 243.
+ line 241.
 (pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
- [13 <./Plots/AttackType/Top6.png> <./Plots/OverTime/Attacks_over_time_grouped_
+ [12 <./Plots/AttackType/Top6.png> <./Plots/OverTime/Attacks_over_time_grouped_
 by_deaths.png (PNG copy)>]
-<Plots/OverTime/WesternSuccessVsAttempts.png, id=79, 1193.20781pt x 632.3625pt>
+<Plots/OverTime/WesternSuccessVsAttempts.png, id=76, 1193.20781pt x 632.3625pt>
 File: Plots/OverTime/WesternSuccessVsAttempts.png Graphic file (type png)
 <use Plots/OverTime/WesternSuccessVsAttempts.png>
 Package pdftex.def Info: Plots/OverTime/WesternSuccessVsAttempts.png used on in
-put line 248.
+put line 246.
 (pdftex.def)             Requested size: 276.00105pt x 146.27013pt.
- [14 <./Plots/OverTime/Successes_vs_Attempts_by_Year.png> <./Plots/OverTime/Top
+ [13 <./Plots/OverTime/Successes_vs_Attempts_by_Year.png> <./Plots/OverTime/Top
 6SuccessVsAttempts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 257--264
+Underfull \hbox (badness 10000) in paragraph at lines 255--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--264
+Underfull \hbox (badness 10000) in paragraph at lines 255--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--264
+Underfull \hbox (badness 10000) in paragraph at lines 255--268
 
  []
 
-[15 <./Plots/OverTime/WesternSuccessVsAttempts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 268--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--279
+[14 <./Plots/OverTime/WesternSuccessVsAttempts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 270--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--279
+Underfull \hbox (badness 10000) in paragraph at lines 270--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--299
+Underfull \hbox (badness 10000) in paragraph at lines 270--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--299
+Underfull \hbox (badness 10000) in paragraph at lines 283--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--299
+Underfull \hbox (badness 10000) in paragraph at lines 283--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--299
+Underfull \hbox (badness 10000) in paragraph at lines 283--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--300
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 306--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--315
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 307--314
+Underfull \hbox (badness 10000) in paragraph at lines 317--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--314
+Underfull \hbox (badness 10000) in paragraph at lines 317--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--314
+Underfull \hbox (badness 10000) in paragraph at lines 317--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--342
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 316--341
+Underfull \hbox (badness 10000) in paragraph at lines 351--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--341
+Underfull \hbox (badness 10000) in paragraph at lines 351--359
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 350--358
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--358
-
- []
-
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 []\OT1/cmr/m/n/10 Cornell Law. (n.d.). 18 U.S Code. Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--385
+Underfull \hbox (badness 10000) in paragraph at lines 384--386
 []\OT1/cmr/m/n/10 FBI. (2002). Ter-ror-ism 2002 - 2005. Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
 []\OT1/cmr/m/n/10 FEMA. (2013, July 25). Ter-ror-ism. Re-trieved from FEMA.gov:
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
 \OT1/cmr/m/n/10 https://www.fema.gov/media-library-data/20130726-1549-20490-
  []
 
 
-Overfull \hbox (1.94528pt too wide) in paragraph at lines 394--396
+Overfull \hbox (1.94528pt too wide) in paragraph at lines 395--397
 \OT1/cmr/m/n/10 http://www.terrorismanalysts.com/pt/index.php/pot/article/view/
 89/html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--400
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 []\OT1/cmr/m/n/10 LaFree, G., & Dugan, L. (2004). How does study-ing ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--400
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 \OT1/cmr/m/n/10 ror-ism com-pare to study-ing crime? Re-trieved from Ter-ror-
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 398--400
+Underfull \hbox (badness 7522) in paragraph at lines 399--401
 \OT1/cmr/m/n/10 ism and Counter-Terrorism (So-ci-ol-ogy of Crime, Law and De-
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 398--400
+Underfull \hbox (badness 1571) in paragraph at lines 399--401
 \OT1/cmr/m/n/10 viance, Vol-ume 5) Emer-ald Group Pub-lish-ing Lim-ited, pp.53 
 - 74:
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 402--404
+Underfull \hbox (badness 5147) in paragraph at lines 403--405
 []\OT1/cmr/m/n/10 Lafree, G., & Dugan, L. (2007). In-tro-duc-ing the Global Ter
 -
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 402--404
+Underfull \hbox (badness 3557) in paragraph at lines 403--405
 \OT1/cmr/m/n/10 ror-ism Database. Re-trieved from Ter-ror-ism and Po-lit-i-cal 
 Vi-o-lence:
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 406--408
+Underfull \hbox (badness 3108) in paragraph at lines 407--409
 []\OT1/cmr/m/n/10 LaFree, G., Dugan, L., & Scott, J. (2006). Build-ing a Global
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
 \OT1/cmr/m/n/10 ter-ror-ism Database. Re-trieved from Uni-ver-sity of Mary-land
 :
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 421--423
+Underfull \hbox (badness 6268) in paragraph at lines 422--424
 []\OT1/cmr/m/n/10 Desilver, D. (2013). \OT1/cmr/m/it/10 U.S. spends over \OT1/c
 mr/m/sl/10 $\OT1/cmr/m/it/10 16 bil-lion an-nu-ally on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--423
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
 \OT1/cmr/m/it/10 counter-terrorism\OT1/cmr/m/n/10 . Re-trieved from http://www.
 pewresearch.org/fact-
  []
 
-[21] [22] (Final_Report.aux) ) 
+[19] [20] (Final_Report.aux) ) 
 Here is how much of TeX's memory you used:
  3870 strings out of 493335
  57238 string characters out of 3128498
- 139458 words of memory out of 3000000
+ 138458 words of memory out of 3000000
  7314 multiletter control sequences out of 15000+200000
  8162 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,5n,39p,988b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,5n,39p,928b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kocyb_000/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kocyb
-_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/kocyb_000/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/kocyb_000/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/ko
-cyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmti10.pfb>
-Output written on Final_Report.pdf (23 pages, 421454 bytes).
+_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/kocyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/kocyb_000/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/kocyb_000/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ko
+cyb_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
+.pfb>
+Output written on Final_Report.pdf (21 pages, 410379 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
